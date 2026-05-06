@@ -1,0 +1,8 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Grundkort","Grundkort","geometri via Grundkort i forbindelse med oprettelsen af DAR","Kun aktuel for adressepunkt, navngivnvej og navngivenvej kommunedel.","2015-10-01",""
+"Matrikelkort","Matrikelkort","beregnet ud fra Matriklens lodflade, i forbindelse dannelsen af adressepunkter i forbindelse med DAR's idriftsættelse","Kun aktuel for adressepunkt, navngivnvej og navngivenvej kommunedel.","2015-10-01",""
+"Ekstern","Ekstern tredjepart","geometri via Geodanmark","Kun aktuel for adressepunkt, navngivnvej og navngivenvej kommunedel.","2015-10-01",""
+"Ejer","Ejer eller administrator","geometrien indberettet af ejer eller administrator","Værdien bruges ikke.","2015-10-01",""
+"Landinsp","Landinspektør","geometrien indberettet af landinspektør","Kun aktuel for adressepunkt, navngivnvej og navngivenvej kommunedel.","2015-10-01",""
+"Adressemyn","Adressemyndigheden","den kommunale adressemyndighed","Kun aktuel for adressepunkt, navngivnvej og navngivenvej kommunedel.","2015-10-01",""
+"DARSystem","Danmarks Adresse Register","opdateret via DAR systemet","Kun aktuel for adressepunkt, navngivnvej og navngivenvej kommunedel.","2015-10-01",""

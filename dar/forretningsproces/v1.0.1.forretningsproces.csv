@@ -1,0 +1,8 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"0","Stamdata","generelle opdateringer","","2015-10-01",""
+"1","Adresseopgave","ændringen er foretaget via en adresseopgave","","2015-10-01",""
+"2","Dialogklient","ændring modtaget via klient","Værdien bruges ikke.","2015-10-01",""
+"3","Gadepostnummer","ændringen er foretaget gennem gadepostnummer klienten","","2015-10-01",""
+"4","Supplerende bynavn","ændringen er foretage via DAGI supplerende bynavne","","2015-10-01",""
+"5","Fejlmeldeklient","fejl meldt via klient","Værdien bruges ikke.","2015-10-01",""
+"6","Fortrudt fremdatering","fremtidig ændring er fortrudt","","2015-10-01",""

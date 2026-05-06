@@ -2,17 +2,105 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
    <link rel="self"
          type="application/atom+xml"
-         href="https://sdfidk.github.io/kodelisteregister/dar/feed.atom"/>
+         href="https://klimadatastyrelsen.github.io/kodelisteregister/dar/feed.atom"/>
    <link rel="alternate"
          type="text/html"
-         href="https://sdfidk.github.io/kodelisteregister/dar/index.html"/>
+         href="https://klimadatastyrelsen.github.io/kodelisteregister/dar/index.html"/>
    <title>Kodelisteregister - DAR</title>
    <id>urn:uuid:23d6f3a4-d604-4bce-9cac-69521dd1c306</id>
    <author>
       <name>Klimadatastyrelsen</name>
       <email>adresser@kds.dk</email>
    </author>
-   <updated>2026-03-20T09:46:22Z</updated>
+   <updated>2026-05-06T20:25:10Z</updated>
+   <entry>
+      <title type="text">virkningsaktoer version 1.0.1</title>
+      <id>urn:uuid:f21c9c47-07f2-4157-959a-8d93d48117c3</id>
+      <updated>2026-05-06T20:25:05Z</updated>
+      <published>2026-05-06T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/dar/virkningsaktoer/v1.0.1.virkningsaktoer.html"/>
+      <summary type="text">Kodelisten er opdateret med definitioner og evt. kommentarer.</summary>
+      <content type="html">&lt;div&gt;Kodelisten er opdateret med definitioner og evt. kommentarer.&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">tekniskstandard version 1.0.1</title>
+      <id>urn:uuid:0beaf42c-55d4-43d0-b68e-09400841ac6b</id>
+      <updated>2026-05-06T20:25:04Z</updated>
+      <published>2026-05-06T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/dar/tekniskstandard/v1.0.1.tekniskstandard.html"/>
+      <summary type="text">Kodelisten er opdateret med definitioner og evt. kommentarer.</summary>
+      <content type="html">&lt;div&gt;Kodelisten er opdateret med definitioner og evt. kommentarer.&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">livscyklus version 1.0.1</title>
+      <id>urn:uuid:135800cc-3012-4fde-b4d9-70aea0ec8a09</id>
+      <updated>2026-05-06T20:25:03Z</updated>
+      <published>2026-05-06T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus/v1.0.1.livscyklus.html"/>
+      <summary type="text">Kodelisten er opdateret med definitioner og evt. kommentarer.</summary>
+      <content type="html">&lt;div&gt;Kodelisten er opdateret med definitioner og evt. kommentarer.&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">noejagtighedsklasse version 1.0.1</title>
+      <id>urn:uuid:68b8db4e-aecc-4a9b-a33a-1d49d92f6a8f</id>
+      <updated>2026-05-06T20:25:03Z</updated>
+      <published>2026-05-06T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/dar/noejagtighedsklasse/v1.0.1.noejagtighedsklasse.html"/>
+      <summary type="text">Kodelisten er opdateret med definitioner og evt. kommentarer.</summary>
+      <content type="html">&lt;div&gt;Kodelisten er opdateret med definitioner og evt. kommentarer.&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">forretningsproces version 1.0.1</title>
+      <id>urn:uuid:1f53b905-7332-4c7d-8e09-afd656b8b6cc</id>
+      <updated>2026-05-06T20:25:02Z</updated>
+      <published>2026-05-06T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningsproces/v1.0.1.forretningsproces.html"/>
+      <summary type="text">Kodelisten er opdateret med definitioner og evt. kommentarer.</summary>
+      <content type="html">&lt;div&gt;Kodelisten er opdateret med definitioner og evt. kommentarer.&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">kildetilgeometri version 1.0.1</title>
+      <id>urn:uuid:8dbabf00-2f7b-4003-92a1-4969c78eafeb</id>
+      <updated>2026-05-06T20:25:02Z</updated>
+      <published>2026-05-06T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/dar/kildetilgeometri/v1.0.1.kildetilgeometri.html"/>
+      <summary type="text">Kodelisten er opdateret med definitioner og evt. kommentarer.</summary>
+      <content type="html">&lt;div&gt;Kodelisten er opdateret med definitioner og evt. kommentarer.&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">forretningsomraade version 1.0.1</title>
+      <id>urn:uuid:6273cc8a-7d39-410b-bae6-d726ea536739</id>
+      <updated>2026-05-06T20:25:01Z</updated>
+      <published>2026-05-06T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningsomraade/v1.0.1.forretningsomraade.html"/>
+      <summary type="text">Kodelisten er opdateret med definitioner og evt. kommentarer.</summary>
+      <content type="html">&lt;div&gt;Kodelisten er opdateret med definitioner og evt. kommentarer.&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">forretningshaendelse version 1.0.1</title>
+      <id>urn:uuid:f3a73a82-0f4b-400c-b68a-dd48c01a9dc5</id>
+      <updated>2026-05-06T20:25:00Z</updated>
+      <published>2026-05-06T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/v1.0.1.forretningshaendelse.html"/>
+      <summary type="text">Kodelisten er opdateret med definitioner og evt. kommentarer.</summary>
+      <content type="html">&lt;div&gt;Kodelisten er opdateret med definitioner og evt. kommentarer.&lt;/div&gt;</content>
+   </entry>
    <entry>
       <title type="text">tekniskstandard version 1.0.0</title>
       <id>urn:uuid:1fd80f46-87c9-482b-b462-a2f3894ecce4</id>
