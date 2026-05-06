@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+   <title type="text">noejagtighedsklasse version 1.0.1</title>
+   <id>urn:uuid:68b8db4e-aecc-4a9b-a33a-1d49d92f6a8f</id>
+   <updated>2026-05-06T20:25:03Z</updated>
+   <published>2026-05-06T00:00:00Z</published>
+   <link rel="alternate"
+         type="text/html"
+         href="https://klimadatastyrelsen.github.io/kodelisteregister/dar/noejagtighedsklasse/v1.0.1.noejagtighedsklasse.html"/>
+   <summary type="text">Kodelisten er opdateret med definitioner og evt. kommentarer.</summary>
+   <content type="html">&lt;div&gt;Kodelisten er opdateret med definitioner og evt. kommentarer.&lt;/div&gt;</content>
+</entry>

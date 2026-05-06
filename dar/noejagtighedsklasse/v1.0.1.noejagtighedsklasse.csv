@@ -1,0 +1,7 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"A","Absolut placeret","adgangspunker og vejpunkter, der er placeret af adressemyndigheden.","Nøjagtighedsklasse for Vejpunkt/Adgangspunkt.","2015-10-01",""
+"B","Beregnet placering","alle vejpunkter blev beregnet da DAR blev skabt. Hvis punktet ikke er rykket siden, vil nøjagtighedklassen være B","Nøjagtighedsklasse for Vejpunkt/Adgangspunkt.","2015-10-01",""
+"A","Manuelt sat, følger IKKE GeoDanmark","navngivne veje, der ikke skal følge GeoDanmarks vejmidte","Nøjagtighedsklasse for Vejnavnebeliggenhed.","2015-10-01",""
+"B","Maskinelt sat, ud fra GeoDanmark","sættes automatisk når vejnavnebeliggenheden er opdateret ud fra GeoDanmark","Nøjagtighedsklasse for Vejnavnebeliggenhed.","2015-10-01",""
+"C","Manuelt sat, kommer til at følge GeoDanmark","manuelt placerede veje i DAR, der skal opdateres og følge GeoDanmark Vejmidter","Nøjagtighedsklasse for Vejnavnebeliggenhed.","2015-10-01",""
+"U","Adressepunkt uden koordinater - stedfæstelse ukendt","adressepunktet er ikke stedfæstet med koordinater","Kan forekomme for historiske Adressepunkter (adgangspunkter).","2015-10-01",""

@@ -1,0 +1,8 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"54.15.10.25","Danmarks Adresse Register, DAR","FORM nøgle der hører til adresser","","2015-10-01",""
+"54.15.10.15","Postnumre","FORM nøgle der hører til postnumre","","2015-10-01",""
+"54.15.10.06","Vejnavne og vejkoder","FORM nøgle der hører til vejnavne og husnumre","","2015-10-01",""
+"54.15.10.07","Husnummer","FORM nøgle der hører til husnumre","","2015-10-01",""
+"54.15.10.08","Enhedsadresser","FORM nøgle der hørte til enhedsadresser","","2015-10-01","2017-03-01"
+"00.00.00.00","00.00.00.00","Dummy værdi for FORM nøgle","","2015-10-01",""
+"10.00.00.00","10.00.00.00","Dummy værdi for FORM nøgle","","2015-10-01",""

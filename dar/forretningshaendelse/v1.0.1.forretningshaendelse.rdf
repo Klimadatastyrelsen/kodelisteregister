@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#">
+   <skos:ConceptScheme rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse">
+      <dcterms:title xml:lang="da">forretningshaendelse</dcterms:title>
+      <dcterms:identifier>urn:uuid:4ca8345d-83dd-46be-8056-94bf35903e1a</dcterms:identifier>
+      <owl:sameAs rdf:resource="urn:uuid:4ca8345d-83dd-46be-8056-94bf35903e1a"/>
+      <dcterms:creator xml:lang="da">Klimadatastyrelsen</dcterms:creator>
+      <dcterms:description xml:lang="da">Kodelisten indeholder mulige værdier for forretningshændelser til DAR.</dcterms:description>
+      <dcterms:provenance xml:lang="da">Kodelisten er opdateret med definitioner og evt. kommentarer.</dcterms:provenance>
+      <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.da"/>
+      <dcterms:available xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">2026-05-06</dcterms:available>
+      <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.1</dcat:version>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">urn:uuid:f3a73a82-0f4b-400c-b68a-dd48c01a9dc5</dcat:version>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/v1.0.1.forretningshaendelse.gc"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/v1.0.1.forretningshaendelse.csv"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/v1.0.1.forretningshaendelse.html"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/v1.0.1.forretningshaendelse.rdf"/>
+   </skos:ConceptScheme>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/v1.0.1.forretningshaendelse.gc">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/xml"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/v1.0.1.forretningshaendelse.csv">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/v1.0.1.forretningshaendelse.html">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/html"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/v1.0.1.forretningshaendelse.rdf">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
+   </dcat:Distribution>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/Navngiven vej">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>0</skos:notation>
+      <skos:prefLabel xml:lang="da">Navngiven vej</skos:prefLabel>
+      <skos:definition xml:lang="da">ændringer som følge ændring i navngivenvej</skos:definition>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/Navngivenvej kommunedel">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>1</skos:notation>
+      <skos:prefLabel xml:lang="da">Navngivenvej kommunedel</skos:prefLabel>
+      <skos:definition xml:lang="da">ændringer som følge ændring i navngivenvejkommunedel</skos:definition>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/Adresse">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>2</skos:notation>
+      <skos:prefLabel xml:lang="da">Adresse</skos:prefLabel>
+      <skos:definition xml:lang="da">ændringer som følge af ændring i adressen</skos:definition>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/Husnummer">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>3</skos:notation>
+      <skos:prefLabel xml:lang="da">Husnummer</skos:prefLabel>
+      <skos:definition xml:lang="da">ændringer som følge af ændring i husnummeret</skos:definition>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/Postnummer">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>4</skos:notation>
+      <skos:prefLabel xml:lang="da">Postnummer</skos:prefLabel>
+      <skos:definition xml:lang="da">ændring som følge af ændringer i postnummeret</skos:definition>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/Supplerende bynavn">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>5</skos:notation>
+      <skos:prefLabel xml:lang="da">Supplerende bynavn</skos:prefLabel>
+      <skos:definition xml:lang="da">ændring som følge af ændringer i supplerende bynavn</skos:definition>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/Husnummerreservation">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>6</skos:notation>
+      <skos:prefLabel xml:lang="da">Husnummerreservation</skos:prefLabel>
+      <skos:definition xml:lang="da">ændring som følgeaf at Adressemyndigheden har reserveret husnummer</skos:definition>
+      <rdfs:comment xml:lang="da">Udstilles ikke.</rdfs:comment>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/Vejnavn reservation">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>7</skos:notation>
+      <skos:prefLabel xml:lang="da">Vejnavn reservation</skos:prefLabel>
+      <skos:definition xml:lang="da">ændring som følgeaf at Adressemyndigheden har reserveret vejnavn</skos:definition>
+      <rdfs:comment xml:lang="da">Udstilles ikke.</rdfs:comment>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/Adresseopgave">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>8</skos:notation>
+      <skos:prefLabel xml:lang="da">Adresseopgave</skos:prefLabel>
+      <skos:definition xml:lang="da">ændringer som følge af en adresseopgave</skos:definition>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/Adresseopgavegenstand">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>9</skos:notation>
+      <skos:prefLabel xml:lang="da">Adresseopgavegenstand</skos:prefLabel>
+      <skos:definition xml:lang="da">ikke i brug</skos:definition>
+      <rdfs:comment xml:lang="da">Udstilles ikke.</rdfs:comment>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/DAGI Kommune">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>10</skos:notation>
+      <skos:prefLabel xml:lang="da">DAGI Kommune</skos:prefLabel>
+      <skos:definition xml:lang="da">ændringer som følge af ændring i DAGI kommune</skos:definition>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/DAGI Sogneinddeling">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>11</skos:notation>
+      <skos:prefLabel xml:lang="da">DAGI Sogneinddeling</skos:prefLabel>
+      <skos:definition xml:lang="da">ændringer som følge af ændring i DAGI sogneinddeling</skos:definition>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/DAGI Postnummer">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>12</skos:notation>
+      <skos:prefLabel xml:lang="da">DAGI Postnummer</skos:prefLabel>
+      <skos:definition xml:lang="da">ændringer som følge af ændring i DAGI postnummer</skos:definition>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/DAGI Afstemningsområde">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>13</skos:notation>
+      <skos:prefLabel xml:lang="da">DAGI Afstemningsområde</skos:prefLabel>
+      <skos:definition xml:lang="da">ændringer som følge af ændring i DAGI afstemningsområde</skos:definition>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/DAGI Meninghedsrådsafstemningsområde">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>14</skos:notation>
+      <skos:prefLabel xml:lang="da">DAGI Meninghedsrådsafstemningsområde</skos:prefLabel>
+      <skos:definition xml:lang="da">ændringer som følge af ændring i DAGI meninghedsrådsafstemningsområde</skos:definition>
+      <rdfs:comment xml:lang="da">Meninghedsrådsaftemningsområder udgår af DAGI med udgangen af Q2 2026. For husnumre bliver feltet sat til null, når objektversionen herefter opdateres. Nye husnumre har null i dette felt, ved første registrering.</rdfs:comment>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/DAGI Supplerende bynavn">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>15</skos:notation>
+      <skos:prefLabel xml:lang="da">DAGI Supplerende bynavn</skos:prefLabel>
+      <skos:definition xml:lang="da">ændringer som følge af ændring i DAGI supplerende bynavn</skos:definition>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/BBR Bygning">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>16</skos:notation>
+      <skos:prefLabel xml:lang="da">BBR Bygning</skos:prefLabel>
+      <skos:definition xml:lang="da">ændringer som følge af ændring i BBR Bygning</skos:definition>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/BBR Tekniskanlæg">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>17</skos:notation>
+      <skos:prefLabel xml:lang="da">BBR Tekniskanlæg</skos:prefLabel>
+      <skos:definition xml:lang="da">ændringer som følge af ændring i BBR Tekniskanlæg</skos:definition>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/MU Jordstykke">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>18</skos:notation>
+      <skos:prefLabel xml:lang="da">MU Jordstykke</skos:prefLabel>
+      <skos:definition xml:lang="da">ændringer som følge af ændring i MU Jordstykke</skos:definition>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/GeoDanmark bygning">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>19</skos:notation>
+      <skos:prefLabel xml:lang="da">GeoDanmark bygning</skos:prefLabel>
+      <skos:definition xml:lang="da">ændringer som følge af ændring i Geo Danmarkbygning</skos:definition>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/GeoDanmark vejmidte">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>20</skos:notation>
+      <skos:prefLabel xml:lang="da">GeoDanmark vejmidte</skos:prefLabel>
+      <skos:definition xml:lang="da">ændringer som følge af ændring i Geo Danmarkvejmidte</skos:definition>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse/Navngiven vej">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/forretningshaendelse"/>
+      <skos:notation>NavngivenVej</skos:notation>
+      <skos:prefLabel xml:lang="da">Navngiven vej</skos:prefLabel>
+      <skos:definition xml:lang="da">ændringer som følge af ændring i Navngiven vej</skos:definition>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+</rdf:RDF>

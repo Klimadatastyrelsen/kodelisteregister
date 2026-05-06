@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#">
+   <skos:ConceptScheme rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus">
+      <dcterms:title xml:lang="da">livscyklus</dcterms:title>
+      <dcterms:identifier>urn:uuid:bad27b41-ae5b-4d2b-98ae-da4d2d3adba4</dcterms:identifier>
+      <owl:sameAs rdf:resource="urn:uuid:bad27b41-ae5b-4d2b-98ae-da4d2d3adba4"/>
+      <dcterms:creator xml:lang="da">Klimadatastyrelsen</dcterms:creator>
+      <dcterms:description xml:lang="da">Kodelisten indeholder mulige værdier for livscyklus til DAR.</dcterms:description>
+      <dcterms:provenance xml:lang="da">Kodelisten er opdateret med definitioner og evt. kommentarer.</dcterms:provenance>
+      <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.da"/>
+      <dcterms:available xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">2026-05-06</dcterms:available>
+      <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.1</dcat:version>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">urn:uuid:135800cc-3012-4fde-b4d9-70aea0ec8a09</dcat:version>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus/v1.0.1.livscyklus.gc"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus/v1.0.1.livscyklus.csv"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus/v1.0.1.livscyklus.html"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus/v1.0.1.livscyklus.rdf"/>
+   </skos:ConceptScheme>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus/v1.0.1.livscyklus.gc">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/xml"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus/v1.0.1.livscyklus.csv">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus/v1.0.1.livscyklus.html">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/html"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus/v1.0.1.livscyklus.rdf">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
+   </dcat:Distribution>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus/Intern forberedelse">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:notation>1</skos:notation>
+      <skos:prefLabel xml:lang="da">Intern forberedelse</skos:prefLabel>
+      <skos:definition xml:lang="da">objektet bruges i arbejdsskitse til internt brug i kommunen</skos:definition>
+      <rdfs:comment xml:lang="da">Anvendes til at udarbejde en arbejdsskitse til internt brug i kommunen, som ikke skal udstilles. Kan bruges for entiteterne adresse, husnummer og navngivenvej. OBS udstilles ikke.</rdfs:comment>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus/Foreløbig">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:notation>2</skos:notation>
+      <skos:prefLabel xml:lang="da">Foreløbig</skos:prefLabel>
+      <skos:definition xml:lang="da">objektet er foreløbigt og ikke udstillet</skos:definition>
+      <rdfs:comment xml:lang="da">Anvendes for entiteter, inden de bliver gjort gældende. Udstilles til anvendere og kan anvendes af fx BBR til at danne relationen mellem bygning og husnummer. Kan bruges for entiteterne adresse, husnummer og navngivenvej.</rdfs:comment>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus/Gældende">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:notation>3</skos:notation>
+      <skos:prefLabel xml:lang="da">Gældende</skos:prefLabel>
+      <skos:definition xml:lang="da">objektet er gældende</skos:definition>
+      <rdfs:comment xml:lang="da">Kan bruges for entiteterne DAR_Adresse, DAR_Husnummer, DAR_navngivenVej, DAR_NavngivenVejKommunedel, DAR_NavngivenVejPostnummer, DAR_NavngivenvejSupplerendeBynavn og DAR_SupplerendeBynavn.</rdfs:comment>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus/Nedlagt">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:notation>4</skos:notation>
+      <skos:prefLabel xml:lang="da">Nedlagt</skos:prefLabel>
+      <skos:definition xml:lang="da">objektet er nedlagt</skos:definition>
+      <rdfs:comment xml:lang="da">Entiteter som tidligere har haft status gældende, får denne status når de nedlægges. Kan bruges for entiteterne DAR_Adresse, DAR_Husnummer, DAR_navngivenVej, DAR_NavngivenVejKommunedel, DAR_NavngivenVejPostnummer, DAR_NavngivenvejSupplerendeBynavn og DAR_SupplerendeBynavn.</rdfs:comment>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus/Henlagt">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:notation>5</skos:notation>
+      <skos:prefLabel xml:lang="da">Henlagt</skos:prefLabel>
+      <skos:definition xml:lang="da">objektet er henlagt</skos:definition>
+      <rdfs:comment xml:lang="da">Anvendes kun til entiteter hvis foregående status har været ”foreløbig”. Kan bruges for entiteterne adresse, husnummer og navngivenvej.</rdfs:comment>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus/Slettet">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:notation>6</skos:notation>
+      <skos:prefLabel xml:lang="da">Slettet</skos:prefLabel>
+      <skos:definition xml:lang="da">objektet er slettet</skos:definition>
+      <rdfs:comment xml:lang="da">For entiteterne adresse, husnummer og navngivenvej: Anvendes kun til entiteter hvis foregående status har været ”intern forberedelse". For entiteterne adgang- og vejpunkt: Anvendes hvis den foregående status har været ”Ikke i brug”, udstilles kun i fildownload.</rdfs:comment>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus/Ikke i brug">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:notation>7</skos:notation>
+      <skos:prefLabel xml:lang="da">Ikke i brug</skos:prefLabel>
+      <skos:definition xml:lang="da">objektet er ikke i brug</skos:definition>
+      <rdfs:comment xml:lang="da">Anvendes når der ikke er tilknyttet adresser til adgangspunktet, og udstilles kun til særlige anvendelser. Kan bruges for entiteterne adgang- og vejpunkt.</rdfs:comment>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus/I brug">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:notation>8</skos:notation>
+      <skos:prefLabel xml:lang="da">I brug</skos:prefLabel>
+      <skos:definition xml:lang="da">objektet er i brug</skos:definition>
+      <rdfs:comment xml:lang="da">Objektet er i brug. Kan bruges for entiteterne adgang- og vejpunkt.</rdfs:comment>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus/Udgået">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:notation>9</skos:notation>
+      <skos:prefLabel xml:lang="da">Udgået</skos:prefLabel>
+      <skos:definition xml:lang="da">objektet er udgået</skos:definition>
+      <rdfs:comment xml:lang="da">Anvendes hvis den foregående status har været ”I brug”, og hvor Husnummer har status ”henlagt” eller ”nedlagt”. Kan bruges for entiteterne adgang- og vejpunkt. Udstilles kun i fildownload.</rdfs:comment>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus/Udløbet">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:notation>10</skos:notation>
+      <skos:prefLabel xml:lang="da">Udløbet</skos:prefLabel>
+      <skos:definition xml:lang="da">objektet er udløbet</skos:definition>
+      <rdfs:comment xml:lang="da">Anvendes til reserverede vejnavne, hvis reservation er bortfaldet, uden at vejnavnet er blevet taget i brug. Bruges kun ved reserverede vejnavne, der ikke udstilles direkte fra DAR.</rdfs:comment>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus/Ophævet">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dar/livscyklus"/>
+      <skos:notation>11</skos:notation>
+      <skos:prefLabel xml:lang="da">Ophævet</skos:prefLabel>
+      <skos:definition xml:lang="da">objektet er ophævet</skos:definition>
+      <rdfs:comment xml:lang="da">Anvendes til reserverede vejnavne, hvis reservation er bortfaldet, uden at vejnavnet er blevet taget i brug. Bruges kun ved reserverede vejnavne, der ikke udstilles direkte fra DAR.</rdfs:comment>
+      <dcterms:valid>2015-10-01/..</dcterms:valid>
+   </skos:Concept>
+</rdf:RDF>
