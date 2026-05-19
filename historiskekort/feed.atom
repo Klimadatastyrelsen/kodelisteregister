@@ -12,7 +12,18 @@
       <name>Klimadatastyrelsen</name>
       <email>historiskekort@kds.dk</email>
    </author>
-   <updated>2026-05-06T20:25:11Z</updated>
+   <updated>2026-05-19T14:08:07Z</updated>
+   <entry>
+      <title type="text">kortgruppe version 1.1.0</title>
+      <id>urn:uuid:5c6e4ab9-1a0d-4435-8d9f-433ff56c4029</id>
+      <updated>2026-05-19T14:08:01Z</updated>
+      <published>2026-05-19T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/historiskekort/kortgruppe/v1.1.0.kortgruppe.html"/>
+      <summary type="text">Versionen tilføjer kategorisering af historiske dokumenter til formål for lettere forvaltning i Geonetwork</summary>
+      <content type="html">&lt;div&gt;Versionen tilføjer kategorisering af historiske dokumenter til formål for lettere forvaltning i Geonetwork&lt;/div&gt;</content>
+   </entry>
    <entry>
       <title type="text">kortgruppe version 1.0.0</title>
       <id>urn:uuid:143d6a1e-9ec5-4ebb-9a1e-f6d2e5d133d1</id>
