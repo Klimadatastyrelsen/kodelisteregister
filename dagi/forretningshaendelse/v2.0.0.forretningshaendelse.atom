@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+   <title type="text">forretningshaendelse version 2.0.0</title>
+   <id>urn:uuid:455c4bee-7a80-423f-a77e-da0c8ca5b574</id>
+   <updated>2026-08-05T11:36:21Z</updated>
+   <published>2026-08-05T00:00:00Z</published>
+   <link rel="alternate"
+         type="text/html"
+         href="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse/v2.0.0.forretningshaendelse.html"/>
+   <summary type="text">En værdi er fjernet, flere værdier er tilført og dato for virkningFra er ændret.</summary>
+   <content type="html">&lt;div&gt;En værdi er fjernet, flere værdier er tilført og dato for virkningFra er ændret.&lt;/div&gt;</content>
+</entry>

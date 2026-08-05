@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+   <title type="text">virkningsaktoer version 1.0.2</title>
+   <id>urn:uuid:1cd2b0cb-6904-497d-83df-bd6cf8e09bbe</id>
+   <updated>2026-08-05T11:36:24Z</updated>
+   <published>2026-08-05T00:00:00Z</published>
+   <link rel="alternate"
+         type="text/html"
+         href="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/virkningsaktoer/v1.0.2.virkningsaktoer.html"/>
+   <summary type="text">virkningFra er ændret.</summary>
+   <content type="html">&lt;div&gt;virkningFra er ændret.&lt;/div&gt;</content>
+</entry>
