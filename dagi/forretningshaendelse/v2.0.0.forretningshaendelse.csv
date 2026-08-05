@@ -1,0 +1,9 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"ÆndretBekendtgørelse","ÆndretBekendtgørelse","Ændring som følge af kommunalbekendtgørelse","","2026-07-01",""
+"MatrikulærAjourføring","MatrikulærAjourføring","Matrikulære ændringer i Sogneinddelinger","","2026-07-01",""
+"GeoDanmarkTilpasning","GeoDanmarkTilpasning","Ændringer som følge af en topografisk tilpasning","","2026-07-01",""
+"Fejlrettelse","Fejlrettelse","Anvendes ved rettelse af forskellige fejl","","2026-07-01",""
+"KommunalAjourføring","KommunalAjourføring","Kommunen har ajourført objektet","Relevant for Afstemningsområder og Supplerende bynavne","2026-07-01",""
+"Sogneindberetning","Indberetning","Ved ændringer indberettet af Kirkeministeriet ","Relevant for Sogneinddeling","2026-07-01",""
+"Postnummerindberetning","Indberetning","Ved ændringer indberettet af Trafikstyrelsen","Relevant for Postnummerinddeling","2026-07-01",""
+"SystemMigreringDagi3","SystemMigreringDagi3","Anvendt når objektversioner er blevet opdateret i forbindelse med migreringen til nyt DAGI foraltningssystem","Inddelingers geometri er blevet justeret for at sikre, at der ikke er små huller eller overlap mellem objekter i en inddeling. ","2026-07-01",""

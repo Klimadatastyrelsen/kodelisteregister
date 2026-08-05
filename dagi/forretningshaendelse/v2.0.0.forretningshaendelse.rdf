@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#">
+   <skos:ConceptScheme rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse">
+      <dcterms:title xml:lang="da">forretningshaendelse</dcterms:title>
+      <dcterms:identifier>urn:uuid:c45b1e24-9ac4-4424-a15b-f14a65d60b34</dcterms:identifier>
+      <owl:sameAs rdf:resource="urn:uuid:c45b1e24-9ac4-4424-a15b-f14a65d60b34"/>
+      <dcterms:creator xml:lang="da">Klimadatastyrelsen</dcterms:creator>
+      <dcterms:description xml:lang="da">Liste med koder for den begivenhed i virkeligheden som udløste ændringen i data.</dcterms:description>
+      <dcterms:provenance xml:lang="da">En værdi er fjernet, flere værdier er tilført og dato for virkningFra er ændret.</dcterms:provenance>
+      <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.da"/>
+      <dcterms:available xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">2026-08-05</dcterms:available>
+      <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.0.0</dcat:version>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">urn:uuid:455c4bee-7a80-423f-a77e-da0c8ca5b574</dcat:version>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse/v2.0.0.forretningshaendelse.gc"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse/v2.0.0.forretningshaendelse.csv"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse/v2.0.0.forretningshaendelse.html"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse/v2.0.0.forretningshaendelse.rdf"/>
+   </skos:ConceptScheme>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse/v2.0.0.forretningshaendelse.gc">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/xml"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse/v2.0.0.forretningshaendelse.csv">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse/v2.0.0.forretningshaendelse.html">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/html"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse/v2.0.0.forretningshaendelse.rdf">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
+   </dcat:Distribution>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse/ÆndretBekendtgørelse">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse"/>
+      <skos:notation>ÆndretBekendtgørelse</skos:notation>
+      <skos:prefLabel xml:lang="da">ÆndretBekendtgørelse</skos:prefLabel>
+      <skos:definition xml:lang="da">Ændring som følge af kommunalbekendtgørelse</skos:definition>
+      <dcterms:valid>2026-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse/MatrikulærAjourføring">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse"/>
+      <skos:notation>MatrikulærAjourføring</skos:notation>
+      <skos:prefLabel xml:lang="da">MatrikulærAjourføring</skos:prefLabel>
+      <skos:definition xml:lang="da">Matrikulære ændringer i Sogneinddelinger</skos:definition>
+      <dcterms:valid>2026-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse/GeoDanmarkTilpasning">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse"/>
+      <skos:notation>GeoDanmarkTilpasning</skos:notation>
+      <skos:prefLabel xml:lang="da">GeoDanmarkTilpasning</skos:prefLabel>
+      <skos:definition xml:lang="da">Ændringer som følge af en topografisk tilpasning</skos:definition>
+      <dcterms:valid>2026-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse/Fejlrettelse">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse"/>
+      <skos:notation>Fejlrettelse</skos:notation>
+      <skos:prefLabel xml:lang="da">Fejlrettelse</skos:prefLabel>
+      <skos:definition xml:lang="da">Anvendes ved rettelse af forskellige fejl</skos:definition>
+      <dcterms:valid>2026-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse/KommunalAjourføring">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse"/>
+      <skos:notation>KommunalAjourføring</skos:notation>
+      <skos:prefLabel xml:lang="da">KommunalAjourføring</skos:prefLabel>
+      <skos:definition xml:lang="da">Kommunen har ajourført objektet</skos:definition>
+      <rdfs:comment xml:lang="da">Relevant for Afstemningsområder og Supplerende bynavne</rdfs:comment>
+      <dcterms:valid>2026-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse/Indberetning">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse"/>
+      <skos:notation>Sogneindberetning</skos:notation>
+      <skos:prefLabel xml:lang="da">Indberetning</skos:prefLabel>
+      <skos:definition xml:lang="da">Ved ændringer indberettet af Kirkeministeriet </skos:definition>
+      <rdfs:comment xml:lang="da">Relevant for Sogneinddeling</rdfs:comment>
+      <dcterms:valid>2026-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse/Indberetning">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse"/>
+      <skos:notation>Postnummerindberetning</skos:notation>
+      <skos:prefLabel xml:lang="da">Indberetning</skos:prefLabel>
+      <skos:definition xml:lang="da">Ved ændringer indberettet af Trafikstyrelsen</skos:definition>
+      <rdfs:comment xml:lang="da">Relevant for Postnummerinddeling</rdfs:comment>
+      <dcterms:valid>2026-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse/SystemMigreringDagi3">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/forretningshaendelse"/>
+      <skos:notation>SystemMigreringDagi3</skos:notation>
+      <skos:prefLabel xml:lang="da">SystemMigreringDagi3</skos:prefLabel>
+      <skos:definition xml:lang="da">Anvendt når objektversioner er blevet opdateret i forbindelse med migreringen til nyt DAGI foraltningssystem</skos:definition>
+      <rdfs:comment xml:lang="da">Inddelingers geometri er blevet justeret for at sikre, at der ikke er små huller eller overlap mellem objekter i en inddeling. </rdfs:comment>
+      <dcterms:valid>2026-07-01/..</dcterms:valid>
+   </skos:Concept>
+</rdf:RDF>

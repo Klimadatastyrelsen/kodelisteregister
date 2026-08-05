@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#">
+   <skos:ConceptScheme rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi">
+      <dcterms:title xml:lang="da">virkningsaktoer</dcterms:title>
+      <dcterms:identifier>urn:uuid:6fd0defa-e93c-4f2a-832a-16db5d5b8852</dcterms:identifier>
+      <owl:sameAs rdf:resource="urn:uuid:6fd0defa-e93c-4f2a-832a-16db5d5b8852"/>
+      <dcterms:creator xml:lang="da">Klimadatastyrelsen</dcterms:creator>
+      <dcterms:description xml:lang="da">Liste med koder for den aktør der har afstedkommet objektets virkning.</dcterms:description>
+      <dcterms:provenance xml:lang="da">virkningFra er ændret.</dcterms:provenance>
+      <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.da"/>
+      <dcterms:available xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">2026-08-05</dcterms:available>
+      <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.2</dcat:version>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">urn:uuid:1cd2b0cb-6904-497d-83df-bd6cf8e09bbe</dcat:version>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/virkningsaktoer/v1.0.2.virkningsaktoer.gc"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/virkningsaktoer/v1.0.2.virkningsaktoer.csv"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/virkningsaktoer/v1.0.2.virkningsaktoer.html"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/virkningsaktoer/v1.0.2.virkningsaktoer.rdf"/>
+   </skos:ConceptScheme>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/virkningsaktoer/v1.0.2.virkningsaktoer.gc">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/xml"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/virkningsaktoer/v1.0.2.virkningsaktoer.csv">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/virkningsaktoer/v1.0.2.virkningsaktoer.html">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/html"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/virkningsaktoer/v1.0.2.virkningsaktoer.rdf">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
+   </dcat:Distribution>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/Indenrigsministeriet">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi"/>
+      <skos:notation>Indenrigsministeriet</skos:notation>
+      <skos:prefLabel xml:lang="da">Indenrigsministeriet</skos:prefLabel>
+      <skos:definition xml:lang="da">Ændringer foretaget på vegne af Indenrigsministeriet ved ændret bekendtgørelse</skos:definition>
+      <dcterms:valid>2026-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/Geodatastyrelsen">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi"/>
+      <skos:notation>Geodatastyrelsen</skos:notation>
+      <skos:prefLabel xml:lang="da">Geodatastyrelsen</skos:prefLabel>
+      <skos:definition xml:lang="da">Værdien sættes ved matrikulære ændringer i Sogneinddelinger</skos:definition>
+      <dcterms:valid>2026-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/DAGI-myndigheden">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi"/>
+      <skos:notation>DAGI-myndigheden</skos:notation>
+      <skos:prefLabel xml:lang="da">DAGI-myndigheden</skos:prefLabel>
+      <skos:definition xml:lang="da">Ændringer foretaget på vegne af DAGI-myndigheden</skos:definition>
+      <dcterms:valid>2026-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/Kommunen">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi"/>
+      <skos:notation>Kommunen</skos:notation>
+      <skos:prefLabel xml:lang="da">Kommunen</skos:prefLabel>
+      <skos:definition xml:lang="da">Ænringer foretaget af den enkelte kommune eller på vegne af kommunen</skos:definition>
+      <dcterms:valid>2026-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/Kirkeministeriet">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi"/>
+      <skos:notation>Kirkeministeriet</skos:notation>
+      <skos:prefLabel xml:lang="da">Kirkeministeriet</skos:prefLabel>
+      <skos:definition xml:lang="da">Ændringer foretaget på vegne af Kirkeministeriet ved ændringer i Sogneinddelinger</skos:definition>
+      <dcterms:valid>2026-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/dagi/Trafikstyrelsen">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/dagi"/>
+      <skos:notation>Trafikstyrelsen</skos:notation>
+      <skos:prefLabel xml:lang="da">Trafikstyrelsen</skos:prefLabel>
+      <skos:definition xml:lang="da">Ændringer foretaget på vegne af Trafikstyrelsen ved ændringer i Postnummer</skos:definition>
+      <dcterms:valid>2026-07-01/..</dcterms:valid>
+   </skos:Concept>
+</rdf:RDF>
