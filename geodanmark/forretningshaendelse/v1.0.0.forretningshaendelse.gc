@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:dcterms="http://purl.org/dc/terms/">
+   <Annotation>
+      <Description>
+         <dcterms:description>liste med mulige koder til angivelse af forretningshændelse</dcterms:description>
+         <dcterms:provenance>første version i kodelisteregisteret</dcterms:provenance>
+         <dcterms:language>da</dcterms:language>
+         <dcterms:license>https://creativecommons.org/licenses/by/4.0/deed.da</dcterms:license>
+         <dcterms:available>2026-11-24</dcterms:available>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>forretningshaendelse</ShortName>
+      <Version>1.0.0</Version>
+      <CanonicalUri>urn:uuid:d0e4cc04-03f4-4cc2-a51e-b21830560549</CanonicalUri>
+      <CanonicalVersionUri>urn:uuid:fdbfe07c-a675-4d9f-b18b-07e913acec16</CanonicalVersionUri>
+      <LocationUri>https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/forretningshaendelse/v1.0.0.forretningshaendelse.gc</LocationUri>
+      <AlternateFormatLocationUri MimeType="text/csv">https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/forretningshaendelse/v1.0.0.forretningshaendelse.csv</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="text/html">https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/forretningshaendelse/v1.0.0.forretningshaendelse.html</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="application/rdf+xml">https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/forretningshaendelse/v1.0.0.forretningshaendelse.rdf</AlternateFormatLocationUri>
+      <Agency>
+         <LongName>GeoDanmark</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="kode"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tilladt værdi i data</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kode</ShortName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="navn"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>foretrukne term for koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>navn</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="definition"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kort beskrivelse eller formel forklaring af kodens betydning</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>definition</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="kommentar"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kommentar som hjælper til afklaring af forståelse af koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kommentar</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="virkningFra"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden må tages i anvendelse for nye registreringer</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningFra</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Column Id="virkningTil"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden ikke længere må anvendes i nye registreringer. Koden kan eksistere i data, der er registreret før dette tidspunkt</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningTil</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Key Id="key_code">
+         <ShortName>key_code</ShortName>
+         <ColumnRef Ref="kode"/>
+      </Key>
+      <Key Id="key_navn">
+         <ShortName>key_navn</ShortName>
+         <ColumnRef Ref="navn"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Nyt objekt</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Nyt objekt</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>der er opstået et objekt med en ny ident</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>objektet er nyt. Der kan godt have været et andet objekt af samme type omtrent samme sted, men dette er blevet slettet</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Ændret geometri</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Ændret geometri</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>et eksisterende objekt har beholdt sin ident, men har fået ændret på geometrien</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>et eksisterende objekt har fået ændret hele eller dele af sin geometri. Den geometriske rettelse omhandler måske kun Z. 'id.lokalId' for objektet er uændret</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Ændret attribut</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Ændret attribut</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>et eksisterende objekt har beholdt sin ident, men har fået ændret på en eller flere af sine attributværdier</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>et eksisterende objekt har fået ændret en eller flere attributværdier. 'id.lokalId' for objektet er uændret</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Ændret geometri og attribut</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Ændret geometri og attribut</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>et eksisterende objekt har beholdt sin ident, men har fået ændret på geometrien og en eller flere af sine attributværdier</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Nedlagt objekt</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Nedlagt objekt</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>objektet er gjort historisk</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>objektet er logisk slettet</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

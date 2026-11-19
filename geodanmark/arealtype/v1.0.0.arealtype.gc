@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:dcterms="http://purl.org/dc/terms/">
+   <Annotation>
+      <Description>
+         <dcterms:description>liste med mulige koder til angivelse af arealtype</dcterms:description>
+         <dcterms:provenance>første version i kodelisteregisteret</dcterms:provenance>
+         <dcterms:language>da</dcterms:language>
+         <dcterms:license>https://creativecommons.org/licenses/by/4.0/deed.da</dcterms:license>
+         <dcterms:available>2026-11-24</dcterms:available>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>arealtype</ShortName>
+      <Version>1.0.0</Version>
+      <CanonicalUri>urn:uuid:bb3923a8-cf1d-426b-a515-8e5dcccbbf18</CanonicalUri>
+      <CanonicalVersionUri>urn:uuid:487ebde6-d55c-442b-9f23-b374b58467c3</CanonicalVersionUri>
+      <LocationUri>https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/v1.0.0.arealtype.gc</LocationUri>
+      <AlternateFormatLocationUri MimeType="text/csv">https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/v1.0.0.arealtype.csv</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="text/html">https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/v1.0.0.arealtype.html</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="application/rdf+xml">https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/v1.0.0.arealtype.rdf</AlternateFormatLocationUri>
+      <Agency>
+         <LongName>GeoDanmark</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="kode"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tilladt værdi i data</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kode</ShortName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="navn"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>foretrukne term for koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>navn</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="definition"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kort beskrivelse eller formel forklaring af kodens betydning</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>definition</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="kommentar"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kommentar som hjælper til afklaring af forståelse af koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kommentar</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="virkningFra"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden må tages i anvendelse for nye registreringer</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningFra</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Column Id="virkningTil"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden ikke længere må anvendes i nye registreringer. Koden kan eksistere i data, der er registreret før dette tidspunkt</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningTil</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Key Id="key_code">
+         <ShortName>key_code</ShortName>
+         <ColumnRef Ref="kode"/>
+      </Key>
+      <Key Id="key_navn">
+         <ShortName>key_navn</ShortName>
+         <ColumnRef Ref="navn"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Affaldsanlæg</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Affaldsanlæg</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>teknisk enhed, et bygværk eller en lokalitet, der er indrettet til at modtage, sortere, behandle, genanvende, forbrænde eller bortskaffe affald</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>omrids af rensningsanlæg, nedsivningsanlæg og pumpestationer inkl. bygninger, bassiner, tanke, oplagspladser, parkeringspladser mv.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Energiforsyningsanlæg</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Energiforsyningsanlæg</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>en fast installation, der producerer, omformer eller leverer energi (såsom varme, el eller gas) til en bygning, en gruppe af bygninger eller et større samfundsmæssigt netværk</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>omrids af område med kraftværk, varmeværk, transformatoranlæg, gasregulatorstation eller solfangeranlæg inkl. tilhørende bygninger, kullagre, askelagre, olietanke, oplagspladser, parkeringsanlæg, garager mv.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Genbrugsplads</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Genbrugsplads</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>et indrettet område eller anlæg, hvor borgere og nogle gange virksomheder kan aflevere sorteret affald og genbrugsmaterialer, som ikke bliver hentet ved den almindelige husstandssortering</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>omrids af genbrugsplads inkl. bygninger, tekniske indretninger, parkeringsplads mv</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Lufthavn</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Lufthavn</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>et afgrænset område med start- og landingsbaner, bygninger og faciliteter, hvor fly kan lette, lande, parkere og få service, og hvor der er indrettet plads til håndtering af passagerer, bagage eller fragt</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>omrids af område tilknyttet en lufthavn. Inkl. terminaler, bygninger, tankanlæg, startbaner, rulleveje, standpladser, flyserviceområder, hangarer, kontroltårne, fragthaller, ikke offentligt tilgængelige parkeringspladser og øvrige relevante indretninger indgår i området</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Militært anlæg</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Militært anlæg</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>fysiske rammer, der understøtter forsvar, militære operationer, uddannelse eller strategiske beredskab</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>omrids af militært område bestående af bygninger, plæner, paradepladser, garager, oplagspladser, parkeringspladser, træningsbaner mv. der umiddelbart er knyttet til kasernen. Samt omrids af øvelsesterræner, radarstationer, antenneanlæg mv.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Parkeringsanlæg</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Parkeringsanlæg</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>samlet areal der er særligt indrettet og reserveret til parkering af motorkøretøjer</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>omrids af egentligt parkeringsområde til parkering af biler, busser, lastbiler, anhængere, oplagsplads for lystbåde mm. Mindstestørrelse 2.500 m2. Flere mindre områder ved siden af hinanden overskåret af Vejmidte medtages dog, hvis de tilsammen er over mindstemålet.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Sportsanlæg</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Sportsanlæg</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>anlæg der danner rammen om udøvelse af sport eller fysisk aktivitet</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>omrids af sportsanlæg der f.eks. indeholder stadion, parkeringspladser, bygninger, tilskuerfaciliteter og baner (bold-, løbe-, kaste-, skyde-, svømme-, golf-, ride-, motor- mv.) Sportsanlæg omfatter bl.a. Idrætsanlæg ved skoler Fritliggende sportshal ved en skole. Hvis hallen er sammenbygget med øvrige skolebygninger, indgår den ikke i området. Parkeringsanlæg primært til brug for sportsanlægget. De enkelte indretninger inde på arealet registreres ikke som TekniskAreal. Mindstestørrelsen er 2.500 m2. For motorbaner dog 10.000 m2.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Togstation/rangeranlæg</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Togstation/rangeranlæg</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>område med spor og faciliteter, hvor tog standser for passager- eller godsekspedition, eller hvor tog og vogne sammensættes, opdeles og opstilles</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>omrids af område beregnet for jernbanetrafik i forbindelse med station eller rangeranlæg. Tilhørende bygninger, oplagspladser og ikke offentligt tilgængelige parkeringspladser indgår i området</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Vandrensningsanlæg</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vandrensningsanlæg</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>en facilitet eller et teknisk anlæg, der fjerner forurenende stoffer, urenheder og affald fra vand, så det enten kan gøres rent til drikkevand eller renses, før det ledes ud i naturen</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>omrids af rensningsanlæg, nedsivningsanlæg og pumpestationer inkl. bygninger, bassiner, tanke, oplagspladser, parkeringspladser mv.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Vandværk</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vandværk</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>et teknisk anlæg, der indvinder grundvand eller overfladevand, renser det (bl.a. ved iltning og filtrering) og pumper det rene drikkevand ud til forbrugerne via et ledningsnet</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>omrids af vandindvindings og/eller -behandlingsanlæg inkl. bygninger, plæner, oplagspladser, parkeringspladser mv.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Materielgård</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Materielgård</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>plads eller bygning hvor udstyr, maskiner og materialer til drift eller vedligeholdelse opbevares og administreres</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>omrids af plads til opbevaring af f.eks. maskinpark, skilteafmærkning, vejsalt og lignede inkl. bygninger og parkeringspladser</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Ikke tildelt</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Ikke tildelt</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>tildelingen mangler</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>anvendes når Arealtype ikke er tildelt</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Ukendt</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Ukendt</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>type kendes ikke</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>anvendes når Arealtype er ukendt</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>
