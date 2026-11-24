@@ -1,0 +1,5 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Anløbsbro","Anløbsbro","for Havn anvendt som en stor anløbsbro beliggende i en havn","","2027-02-01",""
+"Kyst","Kyst","for Havn beliggende på grænsen mellem land og hav","","2027-02-01",""
+"Sø","Sø","for Havn beliggende i kanten af Sø","","2027-02-01",""
+"Vandløb","Vandløb","for Havn beliggende på breden af vandløb","","2027-02-01",""

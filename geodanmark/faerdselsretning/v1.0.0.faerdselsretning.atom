@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+   <title type="text">faerdselsretning version 1.0.0</title>
+   <id>urn:uuid:f458c1b3-3a3d-47e2-94f5-301b28980f94</id>
+   <updated>2026-11-24T10:03:01Z</updated>
+   <published>2026-11-24T00:00:00Z</published>
+   <link rel="alternate"
+         type="text/html"
+         href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/faerdselsretning/v1.0.0.faerdselsretning.html"/>
+   <summary type="text">første version i kodelisteregisteret</summary>
+   <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+</entry>

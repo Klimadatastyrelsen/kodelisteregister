@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+   <title type="text">kotested version 1.0.0</title>
+   <id>urn:uuid:0666780b-cd08-4dea-ae41-4f3c7b6973ad</id>
+   <updated>2026-11-24T10:03:06Z</updated>
+   <published>2026-11-24T00:00:00Z</published>
+   <link rel="alternate"
+         type="text/html"
+         href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/kotested/v1.0.0.kotested.html"/>
+   <summary type="text">første version i kodelisteregisteret</summary>
+   <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+</entry>

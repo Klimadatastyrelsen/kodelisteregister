@@ -1,0 +1,5 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Ja","Ja","vejmidten indgår i et parallelt forløb med en anden vejmidte","","2027-02-01",""
+"Nej","Nej","vejmidten indgår ikke i et parallelt forløb med en anden vejmidte","","2027-02-01",""
+"Ikke tildelt","Ikke tildelt","det er ikke angivet, om vejmidten indgår i et parallelt forløb","","2027-02-01",""
+"Ukendt","Ukendt","det er ukendt, om vejmidten indgår i et parallelt forløb","","2027-02-01",""

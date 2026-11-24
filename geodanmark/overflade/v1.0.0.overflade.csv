@@ -1,0 +1,5 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Befæstet","Befæstet","befæstet dvs. overfladen er belagt med et hårdt materiale i form af asfalt, beton, brosten, fliser eller lignende","","2027-02-01",""
+"Ubefæstet","Ubefæstet","ubefæstet dvs. overfladen er grus, sand, jord eller lignende","","2027-02-01",""
+"Ikke tildelt","Ikke tildelt","en værdi er ikke tildelt.","","2027-02-01",""
+"Ukendt","Ukendt","ukendt overfladebelægning","","2027-02-01",""

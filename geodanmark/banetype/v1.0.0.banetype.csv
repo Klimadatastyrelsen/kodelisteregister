@@ -1,0 +1,5 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Start_Landing","Start_Landing","lufthavnsområde hvorpå fly lander eller hvorfra fly starter","","2027-02-01",""
+"Taxivej","Taxivej","lufthavnsområde der fortrinsvis bruges som veje for fly","","2027-02-01",""
+"Plads","Plads","lufthavnsområde hvor fly optagter/afsætter passagerer eller gods, flyparkeringsområde samt flyserviceområde af enhver art","","2027-02-01",""
+"Helipad","Helipad","område hvorpå helikoptere lander eller starter fra","","2027-02-01",""

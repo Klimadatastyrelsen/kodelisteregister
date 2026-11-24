@@ -1,0 +1,5 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Projekt godkendt","Projekt godkendt","objekt er registreret i henhold til et godkendt projekt","objekter, der endnu ikke er etableret i virkeligheden, men kun er planlagt, indmeldes med denne værdi. Der må ikke udføres topologi eller konsekvensrettelser i forbindelse med data med denne objektstatus, da disse endnu ikke findes i virkeligheden","2027-02-01",""
+"Under anlæg","Under anlæg","objektet er under anlæg","benyttes når projektet virkeliggøres og anlægsarbejdet er i gang","2027-02-01",""
+"Anlagt","Anlagt","objektet findes i virkeligheden","dette er den normale situation for objekter, der eksisterer i virkeligheden","2027-02-01",""
+"Under nedlæggelse","Under nedlæggelse","objektet er under nedlæggelse","hermed kan man angive, at funktionen er ophørt og at eksistensen snart ophører","2027-02-01",""

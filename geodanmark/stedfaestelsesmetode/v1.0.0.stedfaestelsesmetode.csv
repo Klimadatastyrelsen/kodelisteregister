@@ -1,0 +1,7 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Landmåling","Landmåling","stedfæstelsen er sket ved terrestrisk måling i naturen","","2027-02-01",""
+"Fotogrammetri","Fotogrammetri","stedfæstelsen er sket ved fotogrammetrisk måling i billeder","","2027-02-01",""
+"Beregnet","Beregnet","stedfæstelsen er fastlagt beregningsmæssigt under en automatisk proces","","2027-02-01",""
+"Manuel","Manuel","stedfæstelsen er sket ved en manuel proces som f.eks. editering","","2027-02-01",""
+"AI beregnet","AI beregnet","stedfæstelsen er fastlagt beregningsmæssigt med en AI proces","","2027-02-01",""
+"Uspecificeret","Uspecificeret","objektet er stedfæstet geometrisk ved en uspecificeret proces","","2027-02-01",""

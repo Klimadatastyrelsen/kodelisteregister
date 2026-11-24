@@ -1,0 +1,4 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"DHM","DHM","koten interpoleres fra DHM'en","","2027-02-01",""
+"Kote","Kote","koten er ens i begge ender af tilpasningen og findes i attributten 'kote'","","2027-02-01",""
+"Objekt","Objekt","koten findes i hver af enderne på objektet","","2027-02-01",""

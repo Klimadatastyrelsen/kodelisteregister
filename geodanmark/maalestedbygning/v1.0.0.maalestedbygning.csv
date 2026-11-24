@@ -1,0 +1,6 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Tag","Tag","udbredelsen er målt ved tagkant","","2027-02-01",""
+"Væg","Væg","udbredelsen er målt ved væg","","2027-02-01",""
+"Tag og Væg","Tag og Væg","udbredelsen er målt ved tagkant og væg","","2027-02-01",""
+"Ikke tildelt","Ikke tildelt","når der fagligt ikke er foretaget en vurdering af, hvilken værdi der er den rigtige","","2027-02-01",""
+"Ukendt","Ukendt","når der fagligt ikke er afgjort, hvilken værdi der er den rette","","2027-02-01",""

@@ -1,0 +1,6 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Rensningsanlæg","Rensningsanlæg","anlæg til rensning af spildevand","rodzoneanlæg og minivådområde registreres som ""Rensningsanlæg""","2027-02-01",""
+"Svømmebassin","Svømmebassin","bassin fyldt med vand, der er beregnet til at svømme og bade i","frilufts-/svømmebassin","2027-02-01",""
+"Ikke tildelt","Ikke tildelt","tildelingen mangler","bassintypen er ikke tildelt","2027-02-01",""
+"Ukendt","Ukendt","type kendes ikke","bassintypen er ukendt","2027-02-01",""
+"Andet","Andet","værdi ikke omfattet af de øvrige mulige værdier","bassintypen er noget andet end de andre værdier","2027-02-01",""

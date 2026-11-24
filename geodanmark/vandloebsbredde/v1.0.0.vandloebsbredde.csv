@@ -1,0 +1,9 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"0-2.5","0-2.5","bredde mellem 0 og 2.5 m","","2027-02-01",""
+"2.5-7","2.5-7","bredde mellem 2.5 og 7 m","","2027-02-01",""
+"7-12","7-12","bredde mellem 7 og 12 m","","2027-02-01",""
+"12-24","12-24","bredde mellem 12 og 25 m","","2027-02-01",""
+"24-36","24-36","bredde mellem 24 og36 m","","2027-02-01",""
+"36<","36<","bredde > 36 m","","2027-02-01",""
+"Ikke tildelt","Ikke tildelt","værdi ikke tildelt","","2027-02-01",""
+"Ukendt","Ukendt","værdi ukendt","","2027-02-01",""

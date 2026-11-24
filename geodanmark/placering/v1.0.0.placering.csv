@@ -1,0 +1,4 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Befæstet","Overflade","ligger på jordoverfladen eller på taget af en bygning","","2027-02-01",""
+"Ubefæstet","P-kælder","ligger i en kælder under jorden, men ikke under en bygning","","2027-02-01",""
+"Ikke tildelt","P-hus","ligger inde i eller under en bygning","","2027-02-01",""

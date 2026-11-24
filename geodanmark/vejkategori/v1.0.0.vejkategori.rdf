@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#">
+   <skos:ConceptScheme rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark">
+      <dcterms:title xml:lang="da">vejkategori</dcterms:title>
+      <dcterms:identifier>urn:uuid:4db59947-4759-4227-b3f1-e27ef6fc397a</dcterms:identifier>
+      <owl:sameAs rdf:resource="urn:uuid:4db59947-4759-4227-b3f1-e27ef6fc397a"/>
+      <dcterms:creator xml:lang="da">GeoDanmark</dcterms:creator>
+      <dcterms:description xml:lang="da">liste med mulige koder til angivelse af vejkategori</dcterms:description>
+      <dcterms:provenance xml:lang="da">første version i kodelisteregisteret</dcterms:provenance>
+      <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.da"/>
+      <dcterms:available xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">2026-11-24</dcterms:available>
+      <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.0</dcat:version>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">urn:uuid:c8f42a74-97fe-4364-af48-fb6c4c292efc</dcat:version>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/vejkategori/v1.0.0.vejkategori.gc"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/vejkategori/v1.0.0.vejkategori.csv"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/vejkategori/v1.0.0.vejkategori.html"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/vejkategori/v1.0.0.vejkategori.rdf"/>
+   </skos:ConceptScheme>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/vejkategori/v1.0.0.vejkategori.gc">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/xml"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/vejkategori/v1.0.0.vejkategori.csv">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/vejkategori/v1.0.0.vejkategori.html">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/html"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/vejkategori/v1.0.0.vejkategori.rdf">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
+   </dcat:Distribution>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/Motorvej">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:notation>Motorvej</skos:notation>
+      <skos:prefLabel xml:lang="da">Motorvej</skos:prefLabel>
+      <skos:definition xml:lang="da">veje, der er anlagt efter reglerne for motorvej</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/Motortrafikvej">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:notation>Motortrafikvej</skos:notation>
+      <skos:prefLabel xml:lang="da">Motortrafikvej</skos:prefLabel>
+      <skos:definition xml:lang="da">veje, der er anlagt efter reglerne for motortrafikvej
+ </skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/Gennemfartsvej">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:notation>Gennemfartsvej</skos:notation>
+      <skos:prefLabel xml:lang="da">Gennemfartsvej</skos:prefLabel>
+      <skos:definition xml:lang="da">veje, der betjener den overordnede trafik mellem landsdelene samt mellem større bysamfund og større bydele
+ </skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/Fordelingsvej">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:notation>Fordelingsvej</skos:notation>
+      <skos:prefLabel xml:lang="da">Fordelingsvej</skos:prefLabel>
+      <skos:definition xml:lang="da">veje, der betjener den overordnede trafik mellem større bysamfund og større bydele og er bindeleddet mellem de større rutenetværk og de mere lokale veje
+ </skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/Stor vej">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:notation>Stor vej</skos:notation>
+      <skos:prefLabel xml:lang="da">Stor vej</skos:prefLabel>
+      <skos:definition xml:lang="da">store lokale veje i byer og større veje på landet med store trafikmængder og tung trafik i forhold til andre veje i området</skos:definition>
+      <rdfs:comment xml:lang="da">disse veje indgår ikke i Vejdirektoratets rutenetværk</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/Mellem vej">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:notation>Mellem vej</skos:notation>
+      <skos:prefLabel xml:lang="da">Mellem vej</skos:prefLabel>
+      <skos:definition xml:lang="da">lokale veje til mindre trafikmængder i forhold til andre veje i område</skos:definition>
+      <rdfs:comment xml:lang="da">disse veje indgår ikke i Vejdirektoratets rutenetværk</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/Lille vej">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:notation>Lille vej</skos:notation>
+      <skos:prefLabel xml:lang="da">Lille vej</skos:prefLabel>
+      <skos:definition xml:lang="da">mindre lokalveje, boligveje og større lukkede veje.
+Desuden større skovveje, der kan bære tung trafik</skos:definition>
+      <rdfs:comment xml:lang="da">disse veje indgår ikke i Vejdirektoratets rutenetværk</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/Adgangsvej">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:notation>Adgangsvej</skos:notation>
+      <skos:prefLabel xml:lang="da">Adgangsvej</skos:prefLabel>
+      <skos:definition xml:lang="da">som hovedregel blinde og/eller sparsomt trafikerede veje der kun er adgangsgivende til meget få adresser og/eller ejendomme</skos:definition>
+      <rdfs:comment xml:lang="da">på landet (dvs. uden for Områdepolygon): Indkørselsveje til enligt beliggende ejendomme beliggende på sideveje afgrenet fra veje, der ofte er større.   I byer (dvs. inden for Områdepolygon): Korte og oftest blinde veje som adgang til få ejendomme og vej for adgang til en boligblok på langs af blokken eller til dens parkeringsplads</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/Anden vej">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:notation>Anden vej</skos:notation>
+      <skos:prefLabel xml:lang="da">Anden vej</skos:prefLabel>
+      <skos:definition xml:lang="da">små veje med lille betydning f.eks små markveje, skovveje, blinde veje</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/Parkering">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:notation>Parkering</skos:notation>
+      <skos:prefLabel xml:lang="da">Parkering</skos:prefLabel>
+      <skos:definition xml:lang="da">Små ikke-gennemgående veje på parkerings- og rastepladser.</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/Gennemgående sti">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:notation>Gennemgående sti</skos:notation>
+      <skos:prefLabel xml:lang="da">Gennemgående sti</skos:prefLabel>
+      <skos:definition xml:lang="da">gennemgående sti i eget tracé (anlagt sti eller sti med belysning), der forløber uafhængigt af en Vejmidte-Vej eller, hvor den langs en vej ligger i eget trace adskilt fra kørebanen med en bred rabat, et hegn, en grøft eller et andet fysisk objekt</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/Lokal sti">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:notation>Lokal sti</skos:notation>
+      <skos:prefLabel xml:lang="da">Lokal sti</skos:prefLabel>
+      <skos:definition xml:lang="da">lille sti, ofte en intern sti (anlagt sti eller sti med belysning) i grønt område, park og indgang fra vej til bygning registreres</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/Cykelsti langs vej">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:notation>Cykelsti langs vej</skos:notation>
+      <skos:prefLabel xml:lang="da">Cykelsti langs vej</skos:prefLabel>
+      <skos:definition xml:lang="da">sti, der forløber langs en vej kun adskilt fra kørebanen med en kantsten eller en rabat. Kun for cyklende trafik</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/Cykelbane langs vej">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:notation>Cykelbane langs vej</skos:notation>
+      <skos:prefLabel xml:lang="da">Cykelbane langs vej</skos:prefLabel>
+      <skos:definition xml:lang="da">sti, det forløber langs en vej kun adskilt fra kørebanen med en (mindst 30 cm.) bred bemaling og med cykelsymboler. Kun for cyklende trafik</skos:definition>
+      <rdfs:comment xml:lang="da">cykelbanen har normalt samme 'kommunekode' og 'vejkode' som den vej, den løber langs</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/Bred kantbane">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:notation>Bred kantbane</skos:notation>
+      <skos:prefLabel xml:lang="da">Bred kantbane</skos:prefLabel>
+      <skos:definition xml:lang="da">sti, det forløber langs en vej kun adskilt fra kørebanen med en bemaling men uden cykelsymboler. Kun for cyklende trafik. 
+ 
+ </skos:definition>
+      <rdfs:comment xml:lang="da">cykelbanen har normalt samme 'kommunekode' og 'vejkode' som den vej, den løber langs. Stibredden er mindre end for ”Cykelbane langs vej”. Etableres og ajourføres udelukkende administrativt</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/Fiktiv">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark"/>
+      <skos:notation>Fiktiv</skos:notation>
+      <skos:prefLabel xml:lang="da">Fiktiv</skos:prefLabel>
+      <skos:definition xml:lang="da">vej eller plads, der ikke findes fysisk f.eks ruten som ”Sandormen” på Grenen kører</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+</rdf:RDF>

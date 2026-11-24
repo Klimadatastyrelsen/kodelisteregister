@@ -1,0 +1,5 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"DHMfix","DHMfix","reparation er fejl i den specifikke DHM. Kun fejl af denne type og som har hydrologisk indflydelse på vandets frie forløb repareres","","2027-02-01",""
+"Generel","Generel","den normale tilpasning af hydrologiske forhold (f.eks. fjernelse af en bro) og som har effekt både ved Regn- og Havstignings-modellering","","2027-02-01",""
+"Havstigning","Havstigning","tilpasninger, der skal forhindre, at havvand løber ind over det bagvedliggende land. F.eks. lukning af en højvandssluse. Disse tilpasninger anvendes KUN ved Havstignings-modellering","","2027-02-01",""
+"Regn","Regn","tilpasninger, der skal tillade det naturlige og uhindrede forløb af overflade regnvands forløb ud mod havet. F.eks. åbning af en højvandssluse eller åbning af en kontraklap. Disse tilpasninger skal KUN anvendes ved Regn-modellering","","2027-02-01",""

@@ -1,0 +1,5 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Tunnel","Tunnel","underføring under land, under hav- eller søbund og/eller vand. En tunnel muliggør en passage under terræn for kørende eller gående trafik eller for dyr. Tunnel har et indgangsparti i begge ender","","2027-02-01",""
+"Bro","Bro","en overføring over land og/eller vand. Overføringen består af et brodække af f.eks. beton. Brodækket er selvbærende eller bæres af piller og/eller er ophængt i kabler","","2027-02-01",""
+"Spang","Spang","simpel og smal overføring over et mindre vandløb eller anden lavning i terrænet f.eks. en grøft. Kun gående og tohjulet trafik kan passere.","smalle ”Spang” med en bredde < 2 meter registreres som en enkelt linje ved skønnet midte. Brede ”Spang” med en bredde => 2 registreres ved kanten hele vejen rundt om spangen og dets ender snappes sammen","2027-02-01",""
+"Højvandsmur","Højvandsmur","konstruktion bestående af betonvæg, stålspuns, plastspuns eller træspuns anlagt primært ved kyst i havneområder og byer, hvor højvandsmuren beskytter baglandet mod oversvømmelse fra hav ved højvande","","2027-02-01",""

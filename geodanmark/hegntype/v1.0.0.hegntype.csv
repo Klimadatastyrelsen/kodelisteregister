@@ -1,0 +1,6 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Levende","Levende","alle former for afgrænsninger med en vis fysisk forhindring i form af levende vækster. Hæk, buske , tætstående træer på række, læbælte og lignende","","2027-02-01",""
+"Tråd","Tråd","permanent afgrænsning med stor fysisk forhindring i form af et flettet trådhegn","","2027-02-01",""
+"Andet","Andet","øvrige former for afgrænsning f.eks. plankeværk eller mur","","2027-02-01",""
+"Ikke tildelt","Ikke tildelt","typen af hegn er ikke tildelt","","2027-02-01",""
+"Ukendt","Ukendt","typen af hegn er ikke kendt","","2027-02-01",""

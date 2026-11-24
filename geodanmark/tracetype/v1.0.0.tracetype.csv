@@ -1,0 +1,8 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Vej i delt tracé","Vej i delt tracé","vej med dobbeltrettet færdsel, hvor kørebanerne er samlet uden fysisk adskillelse (som f.eks. midterrabat) mellem retningerne","dækker over almindelige veje, hvor modkørende trafik deler det samme færdselsareal, og vejen derfor registreres med én fælles midtlinje","2027-02-01",""
+"Vej i eget tracé","Vej i eget tracé","veje med ensrettet færdsel, der har deres eget selvstændige forløb. F.eks. til- og frakørselsramper, ensrettede gader i byer","","2027-02-01",""
+"Vej i parallelt tracé","Vej i parallelt tracé","veje med ensrettet færdsel og parallelle forløb, hvor kørebanerne er fysisk adskilt af f.eks. midterhelle, midterrabat eller autoværn","anvendes ved motorveje, motortrafikveje, kanaliseringsanlæg samt boulevarder","2027-02-01",""
+"Sti i eget tracé","Sti i eget tracé","fritliggende sti med eget selvstændigt forløb, som ikke følger en vej. F.eks. stier gennem en skov, en sti gennem en park eller en sti mellem to boligområder i åbent landskab","","2027-02-01",""
+"Sti langs vej","Sti langs vej","stier, der løber langs en vej og følger dennes forløb (tracé). Kan være adskilt af kantsten, rabat eller lignende, og kan anvendes på både stier og baner","har ofte samme vejkode som vejen den forløber langs","2027-02-01",""
+"Ikke tildelt","Ikke tildelt","tildelingen mangler","","2027-02-01",""
+"Ukendt","Ukendt","type kendes ikke","","2027-02-01",""

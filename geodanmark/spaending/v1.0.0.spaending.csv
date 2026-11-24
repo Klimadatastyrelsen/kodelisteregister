@@ -1,0 +1,6 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"10-49 kV","10-49 kV","for ledninger med en spænding >= 10 kV og < 50 kV","","2027-02-01",""
+"50-131 kV","50-131 kV","for ledninger med en spænding >= 50 kV og < 132 kV","","2027-02-01",""
+"132-399 kV","132-399 kV","for ledninger med en spænding >= 132 kV og < 400 kV","","2027-02-01",""
+"400 kV","400 kV","for ledninger med en spænding >= 400 kV","","2027-02-01",""
+"Ukendt","Ukendt","spændingen kendes ikke","","2027-02-01",""

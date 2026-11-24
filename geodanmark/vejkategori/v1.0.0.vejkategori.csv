@@ -1,0 +1,23 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Motorvej","Motorvej","veje, der er anlagt efter reglerne for motorvej","","2027-02-01",""
+"Motortrafikvej","Motortrafikvej","veje, der er anlagt efter reglerne for motortrafikvej
+ ","","2027-02-01",""
+"Gennemfartsvej","Gennemfartsvej","veje, der betjener den overordnede trafik mellem landsdelene samt mellem større bysamfund og større bydele
+ ","","2027-02-01",""
+"Fordelingsvej","Fordelingsvej","veje, der betjener den overordnede trafik mellem større bysamfund og større bydele og er bindeleddet mellem de større rutenetværk og de mere lokale veje
+ ","","2027-02-01",""
+"Stor vej","Stor vej","store lokale veje i byer og større veje på landet med store trafikmængder og tung trafik i forhold til andre veje i området","disse veje indgår ikke i Vejdirektoratets rutenetværk","2027-02-01",""
+"Mellem vej","Mellem vej","lokale veje til mindre trafikmængder i forhold til andre veje i område","disse veje indgår ikke i Vejdirektoratets rutenetværk","2027-02-01",""
+"Lille vej","Lille vej","mindre lokalveje, boligveje og større lukkede veje.
+Desuden større skovveje, der kan bære tung trafik","disse veje indgår ikke i Vejdirektoratets rutenetværk","2027-02-01",""
+"Adgangsvej","Adgangsvej","som hovedregel blinde og/eller sparsomt trafikerede veje der kun er adgangsgivende til meget få adresser og/eller ejendomme","på landet (dvs. uden for Områdepolygon): Indkørselsveje til enligt beliggende ejendomme beliggende på sideveje afgrenet fra veje, der ofte er større.   I byer (dvs. inden for Områdepolygon): Korte og oftest blinde veje som adgang til få ejendomme og vej for adgang til en boligblok på langs af blokken eller til dens parkeringsplads","2027-02-01",""
+"Anden vej","Anden vej","små veje med lille betydning f.eks små markveje, skovveje, blinde veje","","2027-02-01",""
+"Parkering","Parkering","Små ikke-gennemgående veje på parkerings- og rastepladser.","","2027-02-01",""
+"Gennemgående sti","Gennemgående sti","gennemgående sti i eget tracé (anlagt sti eller sti med belysning), der forløber uafhængigt af en Vejmidte-Vej eller, hvor den langs en vej ligger i eget trace adskilt fra kørebanen med en bred rabat, et hegn, en grøft eller et andet fysisk objekt","","2027-02-01",""
+"Lokal sti","Lokal sti","lille sti, ofte en intern sti (anlagt sti eller sti med belysning) i grønt område, park og indgang fra vej til bygning registreres","","2027-02-01",""
+"Cykelsti langs vej","Cykelsti langs vej","sti, der forløber langs en vej kun adskilt fra kørebanen med en kantsten eller en rabat. Kun for cyklende trafik","","2027-02-01",""
+"Cykelbane langs vej","Cykelbane langs vej","sti, det forløber langs en vej kun adskilt fra kørebanen med en (mindst 30 cm.) bred bemaling og med cykelsymboler. Kun for cyklende trafik","cykelbanen har normalt samme 'kommunekode' og 'vejkode' som den vej, den løber langs","2027-02-01",""
+"Bred kantbane","Bred kantbane","sti, det forløber langs en vej kun adskilt fra kørebanen med en bemaling men uden cykelsymboler. Kun for cyklende trafik. 
+ 
+ ","cykelbanen har normalt samme 'kommunekode' og 'vejkode' som den vej, den løber langs. Stibredden er mindre end for ”Cykelbane langs vej”. Etableres og ajourføres udelukkende administrativt","2027-02-01",""
+"Fiktiv","Fiktiv","vej eller plads, der ikke findes fysisk f.eks ruten som ”Sandormen” på Grenen kører","","2027-02-01",""

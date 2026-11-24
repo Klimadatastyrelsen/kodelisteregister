@@ -1,0 +1,7 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"3D-Tag","3D-Tag","koten er målt i forbindelse med 3D-bygningsmodellering","","2027-02-01",""
+"Tag","Tag","koten er målt ved tagkant","","2027-02-01",""
+"Terræn","Terræn","koten er målt ved terræn","","2027-02-01",""
+"Under terræn","Under terræn","koten er målt under terræn","","2027-02-01",""
+"Ikke tildelt","Ikke tildelt","når der fagligt ikke er foretaget en vurdering af, hvilken værdi der er den rigtige","","2027-02-01",""
+"Ukendt","Ukendt","når der fagligt ikke er afgjort, hvilken værdi der er den rette","","2027-02-01",""

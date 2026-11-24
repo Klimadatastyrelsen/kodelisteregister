@@ -1,0 +1,7 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Bygning","Bygning","fast, overdækket konstruktion med tag, som er beregnet til ophold for mennesker eller dyr eller til opbevaring","","2027-02-01",""
+"Husbåd","Husbåd","flydende konstruktion, der primært er indrettet til beboelse eller ophold, og som ligger fast fortøjet og ikke er beregnet til sejlads","","2027-02-01",""
+"Drivhus","Drivhus","bygning med vægge og tag af overvejende lysgennemtrængeligt materiale, fx glas eller plast, som anvendes til dyrkning af planter","","2027-02-01",""
+"Tank/Silo","Tank/Silo","lukket beholder til opbevaring af væsker, gasser eller løse materialer, fx olie, vand, korn eller foder","","2027-02-01",""
+"Andet","Andet","værdi ikke omfattet af de øvrige mulige værdier","når en fagkyndig person kender den rette værdi, men den fremgår ikke blandt de lovlige værdier for attributten","2027-02-01",""
+"Ikke tildelt","Ikke tildelt","tildelingen mangler","når der fagligt ikke er foretaget en vurdering af, hvilken værdi der er den rigtige","2027-02-01",""

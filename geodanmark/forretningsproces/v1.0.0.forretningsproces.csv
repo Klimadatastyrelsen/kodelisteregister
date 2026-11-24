@@ -1,0 +1,4 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Maskinel fejlrettelse","Maskinel fejlrettelse","i forbindelse med maskinel fejlfinding er objektet ændret","","2027-02-01",""
+"Fotogrammetrisk ajourføring","Fotogrammetrisk ajourføring","objektet er ændret ved fotogrammetriske ajourføring","","2027-02-01",""
+"Løbende ajourføring","Løbende ajourføring","objektet er ændret via løbende ajourføring hos en myndighed","","2027-02-01",""
