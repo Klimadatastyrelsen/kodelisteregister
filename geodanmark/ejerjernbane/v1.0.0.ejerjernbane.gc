@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:dcterms="http://purl.org/dc/terms/">
+   <Annotation>
+      <Description>
+         <dcterms:description>liste med mulige koder til angivelse af ejerJernbane</dcterms:description>
+         <dcterms:provenance>første version i kodelisteregisteret</dcterms:provenance>
+         <dcterms:language>da</dcterms:language>
+         <dcterms:license>https://creativecommons.org/licenses/by/4.0/deed.da</dcterms:license>
+         <dcterms:available>2026-11-24</dcterms:available>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>ejerjernbane</ShortName>
+      <Version>1.0.0</Version>
+      <CanonicalUri>urn:uuid:9c712654-87a4-462a-bfd9-861c489a4ecb</CanonicalUri>
+      <CanonicalVersionUri>urn:uuid:476e893e-9121-47bb-946d-1867d7fc332e</CanonicalVersionUri>
+      <LocationUri>https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/ejerjernbane/v1.0.0.ejerjernbane.gc</LocationUri>
+      <AlternateFormatLocationUri MimeType="text/csv">https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/ejerjernbane/v1.0.0.ejerjernbane.csv</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="text/html">https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/ejerjernbane/v1.0.0.ejerjernbane.html</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="application/rdf+xml">https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/ejerjernbane/v1.0.0.ejerjernbane.rdf</AlternateFormatLocationUri>
+      <Agency>
+         <LongName>GeoDanmark</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="kode"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tilladt værdi i data</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kode</ShortName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="navn"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>foretrukne term for koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>navn</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="definition"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kort beskrivelse eller formel forklaring af kodens betydning</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>definition</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="kommentar"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kommentar som hjælper til afklaring af forståelse af koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kommentar</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="virkningFra"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden må tages i anvendelse for nye registreringer</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningFra</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Column Id="virkningTil"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden ikke længere må anvendes i nye registreringer. Koden kan eksistere i data, der er registreret før dette tidspunkt</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningTil</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Key Id="key_code">
+         <ShortName>key_code</ShortName>
+         <ColumnRef Ref="kode"/>
+      </Key>
+      <Key Id="key_navn">
+         <ShortName>key_navn</ShortName>
+         <ColumnRef Ref="navn"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Banedanmark</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Banedanmark</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>jernbanen ejes af Banedanmark</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>DSB</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>DSB</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>jernbanen ejes af DSB</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Privatbane</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Privatbane</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>jernbane der helt eller delvis ejes og drives af en privat organisation</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Andet</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Andet</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>jernbanen ejes af andre end dem, der findes i listen</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Ikke tildelt</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Ikke tildelt</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>ejerforholdet er ikke tildelt</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Ukendt</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Ukendt</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>ejerforholdet er ukendt</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

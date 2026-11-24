@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:dcterms="http://purl.org/dc/terms/">
+   <Annotation>
+      <Description>
+         <dcterms:description>liste med mulige koder til angivelse af BBRaktion</dcterms:description>
+         <dcterms:provenance>første version i kodelisteregisteret</dcterms:provenance>
+         <dcterms:language>da</dcterms:language>
+         <dcterms:license>https://creativecommons.org/licenses/by/4.0/deed.da</dcterms:license>
+         <dcterms:available>2026-11-24</dcterms:available>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>bbraktion</ShortName>
+      <Version>1.0.0</Version>
+      <CanonicalUri>urn:uuid:5a4cbfad-94c9-4bbb-a867-3c28e7380cf0</CanonicalUri>
+      <CanonicalVersionUri>urn:uuid:095de18b-ad80-44e8-95e2-3863af8687ae</CanonicalVersionUri>
+      <LocationUri>https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion/v1.0.0.bbraktion.gc</LocationUri>
+      <AlternateFormatLocationUri MimeType="text/csv">https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion/v1.0.0.bbraktion.csv</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="text/html">https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion/v1.0.0.bbraktion.html</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="application/rdf+xml">https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion/v1.0.0.bbraktion.rdf</AlternateFormatLocationUri>
+      <Agency>
+         <LongName>GeoDanmark</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="kode"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tilladt værdi i data</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kode</ShortName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="navn"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>foretrukne term for koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>navn</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="definition"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kort beskrivelse eller formel forklaring af kodens betydning</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>definition</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="kommentar"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kommentar som hjælper til afklaring af forståelse af koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kommentar</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="virkningFra"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden må tages i anvendelse for nye registreringer</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningFra</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Column Id="virkningTil"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden ikke længere må anvendes i nye registreringer. Koden kan eksistere i data, der er registreret før dette tidspunkt</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningTil</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Key Id="key_code">
+         <ShortName>key_code</ShortName>
+         <ColumnRef Ref="kode"/>
+      </Key>
+      <Key Id="key_navn">
+         <ShortName>key_navn</ShortName>
+         <ColumnRef Ref="navn"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Skal i BBR</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Skal i BBR</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>bygningen skal i BBR</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>der skal oprettes én bygning eller ét tekniskanlæg i BBR, som dette Geodanmark objekt kan kobles til</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Skal ikke i BBR</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Skal ikke i BBR</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>bygningen skal ikke i BBR</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>der skal IKKE oprettes hverken én bygning eller ét tekniskanlæg i BBR</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Skal sammenlægges</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Skal sammenlægges</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>sammenlægges med andre objekter af samme type</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>dette Geodanmark objekt skal sammenlægges med et eller flere andre Geodanmark objekter af samme type. For at kunne matche én bygning eller ét tekniskanlæg i BBR</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Del af et BBR-objekt</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Del af et BBR-objekt</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>objekter kan ikke sammenlægges, fordi de ikke hænger fysisk sammen</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>dette er ét af flere Geodanmark objekter, der samlet set matcher én bygning eller ét tekniskanlæg i BBR, men hvor Geodanmark objekterne ikke kan lægges sammen, da de ikke har fysisk sammenfald</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Mangler afklaring</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Mangler afklaring</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>det er ikke afklaret, hvad der videre skal ske med bygningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

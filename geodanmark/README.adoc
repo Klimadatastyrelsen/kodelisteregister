@@ -1,0 +1,24 @@
+= GeoDanmark
+:author: GeoDanmark
+:email: brian.damsgaard@fredericia.dk
+:identifier: urn:uuid:308249f0-9bc4-4873-b383-ee61f31f1eed
+:description: {doctitle} indeholder stamdata for registrets kodelister ift. beskrivelse, ejerskab og kontaktoplysninger.
+:encoding: utf-8
+:keywords: kodeliste, genericode, grunddata
+:lang: da
+:nofooter:
+
+[#abstract]
+Her er lister med de koder, som indgår i {doctitle}. Læs mere om {doctitle} i registrets https://grunddatamodel.datafordeler.dk/objekttypekatalog/GeoDanmark/package-summary.html[objektkatalog].
+
+[#description]
+== Beskrivelse
+{doctitle}s kodelister er kodelister med de tilladte værdier for attributter på GeoDanmark Vektors objekttyper, fx bygninger, vejmidter, vandløbsmidter og arealer. Nogle kodelister er generelle og bruges på tværs af alle objekttyper, fx objektstatus og geometristatus. Andre er objekttypespecifikke og gælder kun for én eller få objekttyper, fx bygningstype og vejkategori. Listerne er fastsat i GeoDanmark-specifikationen og sikrer, at objekterne registreres ens i hele landet.
+
+[#owner]
+== Ejer
+{doctitle} er ejet af {author}.
+
+[#contact]
+== Kontakt
+Spørgsmål til {doctitle}s kodelister skal rettes til {email}, formand for Geodanmarks Specifikationsforum, se https://www.geodanmark.dk/home/kontakt/.
