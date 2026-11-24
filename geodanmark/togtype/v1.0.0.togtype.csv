@@ -1,0 +1,6 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Metro","Metro","her kører Metro-linjer","","2027-02-01",""
+"S-tog","S-tog","her kører S-tog-linjer","","2027-02-01",""
+"Letbane","Letbane","her kører Letbane-linjer","","2027-02-01",""
+"Øvrige tog","Øvrige tog","her kører Øvrige togtyper","","2027-02-01",""
+"Ingen tog","Ingen tog","her kører ingen tog","isolerede øer af Jernbane, der ikke har forbindelse til det øvrige tog-førende jernbanenet og ikke benyttes til nogen form for togdrift","2027-02-01",""

@@ -1,0 +1,5 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"0.20","0.20","en nøjagtighed på 20 cm","","2027-02-01",""
+"1.00","1.00","en nøjagtighed på 1 meter","","2027-02-01",""
+"3.00","3.00","en nøjagtighed på 3 meter","","2027-02-01",""
+"10.00","10.00","en nøjagtighed på 10 meter","","2027-02-01",""

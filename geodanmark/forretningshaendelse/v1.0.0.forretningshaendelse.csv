@@ -1,0 +1,6 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Nyt objekt","Nyt objekt","der er opstået et objekt med en ny ident","objektet er nyt. Der kan godt have været et andet objekt af samme type omtrent samme sted, men dette er blevet slettet","2027-02-01",""
+"Ændret geometri","Ændret geometri","et eksisterende objekt har beholdt sin ident, men har fået ændret på geometrien","et eksisterende objekt har fået ændret hele eller dele af sin geometri. Den geometriske rettelse omhandler måske kun Z. 'id.lokalId' for objektet er uændret","2027-02-01",""
+"Ændret attribut","Ændret attribut","et eksisterende objekt har beholdt sin ident, men har fået ændret på en eller flere af sine attributværdier","et eksisterende objekt har fået ændret en eller flere attributværdier. 'id.lokalId' for objektet er uændret","2027-02-01",""
+"Ændret geometri og attribut","Ændret geometri og attribut","et eksisterende objekt har beholdt sin ident, men har fået ændret på geometrien og en eller flere af sine attributværdier","","2027-02-01",""
+"Nedlagt objekt","Nedlagt objekt","objektet er gjort historisk","objektet er logisk slettet","2027-02-01",""

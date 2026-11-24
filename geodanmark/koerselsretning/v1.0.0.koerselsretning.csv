@@ -1,0 +1,6 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Begge","Begge","trafikken kører i samme og modsatte retning, som objektet er registreret i","","2027-02-01",""
+"Med digitaliseringsretningen","Med digitaliseringsretningen","trafikken kører i samme retning, som objektet er registreret i","","2027-02-01",""
+"Mod digitaliseringsretningen","Mod digitaliseringsretningen","trafikken kører i modsat retning af den objektet er registreret i","","2027-02-01",""
+"Ikke tildelt","Ikke tildelt","tildelingen mangler","","2027-02-01",""
+"Ukendt","Ukendt","type kendes ikke","","2027-02-01",""

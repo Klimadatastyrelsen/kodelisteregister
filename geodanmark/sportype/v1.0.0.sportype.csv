@@ -1,0 +1,5 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Gennemgående spor","Gennemgående spor","jernbanespor for gennemkørende trafik inden for stationsområder","","2027-02-01",""
+"Hovedspor","Hovedspor","jernbanespor uden for stationsområder","","2027-02-01",""
+"Sidespor","Sidespor","øvrige jernbanespor","","2027-02-01",""
+"Øvrige togvejsspor","Øvrige togvejsspor","jernbanespor for togtrafik inden for stationsområder","","2027-02-01",""

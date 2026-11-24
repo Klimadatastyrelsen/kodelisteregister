@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+   <link rel="self"
+         type="application/atom+xml"
+         href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/feed.atom"/>
+   <link rel="alternate"
+         type="text/html"
+         href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/index.html"/>
+   <title>Kodelisteregister - GeoDanmark</title>
+   <id>urn:uuid:308249f0-9bc4-4873-b383-ee61f31f1eed</id>
+   <author>
+      <name>GeoDanmark</name>
+      <email>brian.damsgaard@fredericia.dk</email>
+   </author>
+   <updated>2026-11-24T10:03:24Z</updated>
+   <entry>
+      <title type="text">vejmidtetype version 1.0.0</title>
+      <id>urn:uuid:0573062a-35ba-4350-af63-12a1c1281726</id>
+      <updated>2026-11-24T10:03:14Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/vejmidtetype/v1.0.0.vejmidtetype.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">vejmyndighed version 1.0.0</title>
+      <id>urn:uuid:834c1a2e-0d68-4bc0-8a2f-b4dfbf782ead</id>
+      <updated>2026-11-24T10:03:14Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/vejmyndighed/v1.0.0.vejmyndighed.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">vejfunktion version 1.0.0</title>
+      <id>urn:uuid:4a62be1d-a2f8-4aca-8736-f90f139574d7</id>
+      <updated>2026-11-24T10:03:13Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/vejfunktion/v1.0.0.vejfunktion.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">vejkanttype version 1.0.0</title>
+      <id>urn:uuid:4a7566f3-4ff8-4927-9cb2-497019698624</id>
+      <updated>2026-11-24T10:03:13Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/vejkanttype/v1.0.0.vejkanttype.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">vejkategori version 1.0.0</title>
+      <id>urn:uuid:c8f42a74-97fe-4364-af48-fb6c4c292efc</id>
+      <updated>2026-11-24T10:03:13Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/vejkategori/v1.0.0.vejkategori.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">trafikart version 1.0.0</title>
+      <id>urn:uuid:bc11c3cb-e437-437b-b865-506c639e520d</id>
+      <updated>2026-11-24T10:03:12Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/trafikart/v1.0.0.trafikart.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">vandloebsbredde version 1.0.0</title>
+      <id>urn:uuid:d7b6485b-bc85-4d78-878f-ed5e0a31dc24</id>
+      <updated>2026-11-24T10:03:12Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/vandloebsbredde/v1.0.0.vandloebsbredde.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">vandloebstype version 1.0.0</title>
+      <id>urn:uuid:9bcdf2c0-4c80-4e03-84fa-8a87649479e1</id>
+      <updated>2026-11-24T10:03:12Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/vandloebstype/v1.0.0.vandloebstype.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">stedfaestelsesmetode version 1.0.0</title>
+      <id>urn:uuid:7d553beb-6518-4674-834e-709da30e32d9</id>
+      <updated>2026-11-24T10:03:11Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/stedfaestelsesmetode/v1.0.0.stedfaestelsesmetode.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">togtype version 1.0.0</title>
+      <id>urn:uuid:e0868b26-af39-4fdd-8ec9-e122edaf22cf</id>
+      <updated>2026-11-24T10:03:11Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/togtype/v1.0.0.togtype.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">tracetype version 1.0.0</title>
+      <id>urn:uuid:9474b06a-0051-499b-99a6-ce3bd759db69</id>
+      <updated>2026-11-24T10:03:11Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype/v1.0.0.tracetype.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">sportstype version 1.0.0</title>
+      <id>urn:uuid:cb62f70c-b39e-4c02-b39f-a36c99dc1b4d</id>
+      <updated>2026-11-24T10:03:10Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/sportstype/v1.0.0.sportstype.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">sportype version 1.0.0</title>
+      <id>urn:uuid:2714ec63-a0dc-4d9d-8314-6fbe7ab36576</id>
+      <updated>2026-11-24T10:03:10Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/sportype/v1.0.0.sportype.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">status version 1.0.0</title>
+      <id>urn:uuid:ff4c601f-7476-4e79-af42-a3165410e5ee</id>
+      <updated>2026-11-24T10:03:10Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/status/v1.0.0.status.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">skraenttype version 1.0.0</title>
+      <id>urn:uuid:d48b9cc7-e9a8-4678-9b9d-3276a0e5ff58</id>
+      <updated>2026-11-24T10:03:09Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/skraenttype/v1.0.0.skraenttype.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">soetype version 1.0.0</title>
+      <id>urn:uuid:1a82d974-557c-4f4d-8257-586be9935fba</id>
+      <updated>2026-11-24T10:03:09Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype/v1.0.0.soetype.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">spaending version 1.0.0</title>
+      <id>urn:uuid:07494021-f11b-486e-a12e-07035cf04a46</id>
+      <updated>2026-11-24T10:03:09Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/spaending/v1.0.0.spaending.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">overflade version 1.0.0</title>
+      <id>urn:uuid:0fef0459-1935-471b-8691-103125ce91ce</id>
+      <updated>2026-11-24T10:03:08Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/overflade/v1.0.0.overflade.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">parallelt_forloeb version 1.0.0</title>
+      <id>urn:uuid:0b42521e-0d86-498f-98d9-a1f6acbf13d9</id>
+      <updated>2026-11-24T10:03:08Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/parallelt_forloeb/v1.0.0.parallelt_forloeb.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">placering version 1.0.0</title>
+      <id>urn:uuid:6c20b389-a301-406f-a122-02f93cb9e259</id>
+      <updated>2026-11-24T10:03:08Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/placering/v1.0.0.placering.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">metode3d version 1.0.0</title>
+      <id>urn:uuid:2ba01ce8-a87a-4bd1-ab0f-cd76d380ac4c</id>
+      <updated>2026-11-24T10:03:07Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/metode3d/v1.0.0.metode3d.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">niveau version 1.0.0</title>
+      <id>urn:uuid:41bdd2ea-c529-4015-8d05-1877ebe04d74</id>
+      <updated>2026-11-24T10:03:07Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/niveau/v1.0.0.niveau.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">noejagtighed version 1.0.0</title>
+      <id>urn:uuid:7c7978e5-3c88-4e07-91f8-5cd45ba73758</id>
+      <updated>2026-11-24T10:03:07Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/noejagtighed/v1.0.0.noejagtighed.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">koerselsretning version 1.0.0</title>
+      <id>urn:uuid:0cec3853-195e-4d4a-87cd-c3a06b7553d5</id>
+      <updated>2026-11-24T10:03:06Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/koerselsretning/v1.0.0.koerselsretning.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">kotested version 1.0.0</title>
+      <id>urn:uuid:0666780b-cd08-4dea-ae41-4f3c7b6973ad</id>
+      <updated>2026-11-24T10:03:06Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/kotested/v1.0.0.kotested.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">kystbeskyttelsestype version 1.0.0</title>
+      <id>urn:uuid:e4413de1-3f05-4dba-b0c5-d06bb9838deb</id>
+      <updated>2026-11-24T10:03:06Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/kystbeskyttelsestype/v1.0.0.kystbeskyttelsestype.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">maalestedbygning version 1.0.0</title>
+      <id>urn:uuid:1115f9a1-1686-49f2-b9da-ca5ab42997f1</id>
+      <updated>2026-11-24T10:03:06Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/maalestedbygning/v1.0.0.maalestedbygning.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">havnetype version 1.0.0</title>
+      <id>urn:uuid:c8e5bca9-e2f4-4ece-afce-69b52d9e0efd</id>
+      <updated>2026-11-24T10:03:05Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/havnetype/v1.0.0.havnetype.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">hegnstype version 1.0.0</title>
+      <id>urn:uuid:dfe5ac3d-579d-4189-83a9-dc325a2233ec</id>
+      <updated>2026-11-24T10:03:05Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/hegnstype/v1.0.0.hegnstype.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">funktionlinje version 1.0.0</title>
+      <id>urn:uuid:e915c594-b2b7-4fae-aa7e-4b1a62d40109</id>
+      <updated>2026-11-24T10:03:04Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/funktionlinje/v1.0.0.funktionlinje.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">geometristatus version 1.0.0</title>
+      <id>urn:uuid:3a85482b-f8c9-4b78-981c-1885a0821275</id>
+      <updated>2026-11-24T10:03:04Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/geometristatus/v1.0.0.geometristatus.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">forretningshaendelse version 1.0.0</title>
+      <id>urn:uuid:fdbfe07c-a675-4d9f-b18b-07e913acec16</id>
+      <updated>2026-11-24T10:03:03Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/forretningshaendelse/v1.0.0.forretningshaendelse.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">forretningsproces version 1.0.0</title>
+      <id>urn:uuid:e9e934f7-c6b9-4abc-a817-cdbfae052ad3</id>
+      <updated>2026-11-24T10:03:03Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/forretningsproces/v1.0.0.forretningsproces.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">funktionhestesko version 1.0.0</title>
+      <id>urn:uuid:bd9d6043-280b-47b0-9c9e-4dad61749eb5</id>
+      <updated>2026-11-24T10:03:03Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/funktionhestesko/v1.0.0.funktionhestesko.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">faldretning version 1.0.0</title>
+      <id>urn:uuid:dbf2bd2d-f060-484e-97e2-9e8de28452ce</id>
+      <updated>2026-11-24T10:03:02Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/faldretning/v1.0.0.faldretning.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">foretaget version 1.0.0</title>
+      <id>urn:uuid:52dd3e94-cbf5-4f28-94b5-1d838152ccb3</id>
+      <updated>2026-11-24T10:03:02Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/foretaget/v1.0.0.foretaget.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">ejerop version 1.0.0</title>
+      <id>urn:uuid:6ea51d7f-2813-446d-a7a4-5e30cd9379f7</id>
+      <updated>2026-11-24T10:03:01Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/ejerop/v1.0.0.ejerop.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">faerdselsretning version 1.0.0</title>
+      <id>urn:uuid:f458c1b3-3a3d-47e2-94f5-301b28980f94</id>
+      <updated>2026-11-24T10:03:01Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/faerdselsretning/v1.0.0.faerdselsretning.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">daemningstype version 1.0.0</title>
+      <id>urn:uuid:07062c1f-be40-4b27-a2c8-58621eb7d558</id>
+      <updated>2026-11-24T10:03:00Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/daemningstype/v1.0.0.daemningstype.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">digetype version 1.0.0</title>
+      <id>urn:uuid:6048257a-0293-4e4a-bdca-233ece8ac593</id>
+      <updated>2026-11-24T10:03:00Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/digetype/v1.0.0.digetype.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">ejerjernbane version 1.0.0</title>
+      <id>urn:uuid:476e893e-9121-47bb-946d-1867d7fc332e</id>
+      <updated>2026-11-24T10:03:00Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/ejerjernbane/v1.0.0.ejerjernbane.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">bygningstype version 1.0.0</title>
+      <id>urn:uuid:b632f631-10b6-47e1-bcc0-414575260c86</id>
+      <updated>2026-11-24T10:02:59Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype/v1.0.0.bygningstype.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">bygvaerktype version 1.0.0</title>
+      <id>urn:uuid:d3a19e93-32e4-4a53-aa75-421b6a7ec3bf</id>
+      <updated>2026-11-24T10:02:59Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygvaerktype/v1.0.0.bygvaerktype.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">bebyggelsestype version 1.0.0</title>
+      <id>urn:uuid:5582d799-4960-4b08-af35-870dfd27c000</id>
+      <updated>2026-11-24T10:02:58Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bebyggelsestype/v1.0.0.bebyggelsestype.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">brugesher version 1.0.0</title>
+      <id>urn:uuid:3e1171d2-2b7c-4299-8cec-27683317e464</id>
+      <updated>2026-11-24T10:02:58Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/brugesher/v1.0.0.brugesher.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">bassintype version 1.0.0</title>
+      <id>urn:uuid:a4be5a6f-5b80-41b6-8bc2-d4764375523d</id>
+      <updated>2026-11-24T10:02:57Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bassintype/v1.0.0.bassintype.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">bbraktion version 1.0.0</title>
+      <id>urn:uuid:095de18b-ad80-44e8-95e2-3863af8687ae</id>
+      <updated>2026-11-24T10:02:57Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion/v1.0.0.bbraktion.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">arealtype version 1.0.0</title>
+      <id>urn:uuid:487ebde6-d55c-442b-9f23-b374b58467c3</id>
+      <updated>2026-11-24T10:02:56Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/v1.0.0.arealtype.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">banetype version 1.0.0</title>
+      <id>urn:uuid:4a03af93-f147-4673-a5c3-09751f47c063</id>
+      <updated>2026-11-24T10:02:56Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype/v1.0.0.banetype.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">aktion version 1.0.0</title>
+      <id>urn:uuid:f637af21-4844-42a1-889c-ff85903545a8</id>
+      <updated>2026-11-24T10:02:55Z</updated>
+      <published>2026-11-24T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/aktion/v1.0.0.aktion.html"/>
+      <summary type="text">første version i kodelisteregisteret</summary>
+      <content type="html">&lt;div&gt;første version i kodelisteregisteret&lt;/div&gt;</content>
+   </entry>
+</feed>

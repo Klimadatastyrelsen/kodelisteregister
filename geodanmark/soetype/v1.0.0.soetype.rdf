@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#">
+   <skos:ConceptScheme rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype">
+      <dcterms:title xml:lang="da">soetype</dcterms:title>
+      <dcterms:identifier>urn:uuid:75a547da-a4e3-46ac-a8b8-a2d98dc7b346</dcterms:identifier>
+      <owl:sameAs rdf:resource="urn:uuid:75a547da-a4e3-46ac-a8b8-a2d98dc7b346"/>
+      <dcterms:creator xml:lang="da">GeoDanmark</dcterms:creator>
+      <dcterms:description xml:lang="da">liste med mulige koder til angivelse af søtype</dcterms:description>
+      <dcterms:provenance xml:lang="da">første version i kodelisteregisteret</dcterms:provenance>
+      <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.da"/>
+      <dcterms:available xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">2026-11-24</dcterms:available>
+      <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.0</dcat:version>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">urn:uuid:1a82d974-557c-4f4d-8257-586be9935fba</dcat:version>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype/v1.0.0.soetype.gc"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype/v1.0.0.soetype.csv"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype/v1.0.0.soetype.html"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype/v1.0.0.soetype.rdf"/>
+   </skos:ConceptScheme>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype/v1.0.0.soetype.gc">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/xml"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype/v1.0.0.soetype.csv">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype/v1.0.0.soetype.html">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/html"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype/v1.0.0.soetype.rdf">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
+   </dcat:Distribution>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype/Fiskedam">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype"/>
+      <skos:notation>Fiskedam</skos:notation>
+      <skos:prefLabel xml:lang="da">Fiskedam</skos:prefLabel>
+      <skos:definition xml:lang="da">bassin eller kunstig dam til opdræt af ferskvandsfisk i forbindelse med dambrug</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype/Sø">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype"/>
+      <skos:notation>Sø</skos:notation>
+      <skos:prefLabel xml:lang="da">Sø</skos:prefLabel>
+      <skos:definition xml:lang="da">naturlig eller anlagt sø</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype/Regnvandsbassin">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype"/>
+      <skos:notation>Regnvandsbassin</skos:notation>
+      <skos:prefLabel xml:lang="da">Regnvandsbassin</skos:prefLabel>
+      <skos:definition xml:lang="da">anlæg til opsamling af overskydende overfladevand under kraftige regnskyl for at minimere risiko for oversvømmelse</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype/Overløbsbassin">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/soetype"/>
+      <skos:notation>Overløbsbassin</skos:notation>
+      <skos:prefLabel xml:lang="da">Overløbsbassin</skos:prefLabel>
+      <skos:definition xml:lang="da">anlæg til opsamling af overskydende kloakvand under kraftige regnskyl</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+</rdf:RDF>

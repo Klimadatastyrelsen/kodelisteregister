@@ -1,0 +1,7 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Motor","Motor","motoriseret sport","","2027-02-01",""
+"Heste","Heste","bane til hestesport","","2027-02-01",""
+"Løbe","Løbe","bane til brug for atletikløb","","2027-02-01",""
+"Andet","Andet","anden sportstype","","2027-02-01",""
+"Ikke tildelt","Ikke tildelt","tildelingen mangler","","2027-02-01",""
+"Ukendt","Ukendt","type kendes ikke","","2027-02-01",""

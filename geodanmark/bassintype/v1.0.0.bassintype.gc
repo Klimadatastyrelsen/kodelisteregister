@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:dcterms="http://purl.org/dc/terms/">
+   <Annotation>
+      <Description>
+         <dcterms:description>liste med mulige koder til angivelse af bassintype</dcterms:description>
+         <dcterms:provenance>første version i kodelisteregisteret</dcterms:provenance>
+         <dcterms:language>da</dcterms:language>
+         <dcterms:license>https://creativecommons.org/licenses/by/4.0/deed.da</dcterms:license>
+         <dcterms:available>2026-11-24</dcterms:available>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>bassintype</ShortName>
+      <Version>1.0.0</Version>
+      <CanonicalUri>urn:uuid:02b2fe7c-ff45-4a18-9890-0dff41658574</CanonicalUri>
+      <CanonicalVersionUri>urn:uuid:a4be5a6f-5b80-41b6-8bc2-d4764375523d</CanonicalVersionUri>
+      <LocationUri>https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bassintype/v1.0.0.bassintype.gc</LocationUri>
+      <AlternateFormatLocationUri MimeType="text/csv">https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bassintype/v1.0.0.bassintype.csv</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="text/html">https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bassintype/v1.0.0.bassintype.html</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="application/rdf+xml">https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bassintype/v1.0.0.bassintype.rdf</AlternateFormatLocationUri>
+      <Agency>
+         <LongName>GeoDanmark</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="kode"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tilladt værdi i data</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kode</ShortName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="navn"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>foretrukne term for koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>navn</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="definition"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kort beskrivelse eller formel forklaring af kodens betydning</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>definition</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="kommentar"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kommentar som hjælper til afklaring af forståelse af koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kommentar</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="virkningFra"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden må tages i anvendelse for nye registreringer</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningFra</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Column Id="virkningTil"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden ikke længere må anvendes i nye registreringer. Koden kan eksistere i data, der er registreret før dette tidspunkt</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningTil</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Key Id="key_code">
+         <ShortName>key_code</ShortName>
+         <ColumnRef Ref="kode"/>
+      </Key>
+      <Key Id="key_navn">
+         <ShortName>key_navn</ShortName>
+         <ColumnRef Ref="navn"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Rensningsanlæg</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Rensningsanlæg</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>anlæg til rensning af spildevand</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>rodzoneanlæg og minivådområde registreres som "Rensningsanlæg"</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Svømmebassin</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Svømmebassin</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>bassin fyldt med vand, der er beregnet til at svømme og bade i</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>frilufts-/svømmebassin</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Ikke tildelt</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Ikke tildelt</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>tildelingen mangler</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>bassintypen er ikke tildelt</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Ukendt</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Ukendt</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>type kendes ikke</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>bassintypen er ukendt</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Andet</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Andet</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>værdi ikke omfattet af de øvrige mulige værdier</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>bassintypen er noget andet end de andre værdier</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#">
+   <skos:ConceptScheme rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/foretaget">
+      <dcterms:title xml:lang="da">foretaget</dcterms:title>
+      <dcterms:identifier>urn:uuid:35b92926-f960-4565-acbe-8ae09d91969e</dcterms:identifier>
+      <owl:sameAs rdf:resource="urn:uuid:35b92926-f960-4565-acbe-8ae09d91969e"/>
+      <dcterms:creator xml:lang="da">GeoDanmark</dcterms:creator>
+      <dcterms:description xml:lang="da">liste med mulige koder til angivelse af foretaget</dcterms:description>
+      <dcterms:provenance xml:lang="da">første version i kodelisteregisteret</dcterms:provenance>
+      <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.da"/>
+      <dcterms:available xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">2026-11-24</dcterms:available>
+      <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.0</dcat:version>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">urn:uuid:52dd3e94-cbf5-4f28-94b5-1d838152ccb3</dcat:version>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/foretaget/v1.0.0.foretaget.gc"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/foretaget/v1.0.0.foretaget.csv"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/foretaget/v1.0.0.foretaget.html"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/foretaget/v1.0.0.foretaget.rdf"/>
+   </skos:ConceptScheme>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/foretaget/v1.0.0.foretaget.gc">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/xml"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/foretaget/v1.0.0.foretaget.csv">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/foretaget/v1.0.0.foretaget.html">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/html"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/foretaget/v1.0.0.foretaget.rdf">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
+   </dcat:Distribution>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/foretaget/NY">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/foretaget"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/foretaget"/>
+      <skos:notation>Ny</skos:notation>
+      <skos:prefLabel xml:lang="da">NY</skos:prefLabel>
+      <skos:definition xml:lang="da">udpegningen er ikke undersøgt</skos:definition>
+      <rdfs:comment xml:lang="da">alle nye udpegninger får denne værdi</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/foretaget/OK">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/foretaget"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/foretaget"/>
+      <skos:notation>Slet</skos:notation>
+      <skos:prefLabel xml:lang="da">OK</skos:prefLabel>
+      <skos:definition xml:lang="da">udpegningen er ajourført</skos:definition>
+      <rdfs:comment xml:lang="da">er rettet som angivet</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/foretaget/NEJ">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/foretaget"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/foretaget"/>
+      <skos:notation>Ændre geometri</skos:notation>
+      <skos:prefLabel xml:lang="da">NEJ</skos:prefLabel>
+      <skos:definition xml:lang="da">udpegningen er ikke ajourført, da der ingen ændring blev fundet</skos:definition>
+      <rdfs:comment xml:lang="da">det angivne sted er besøgt, men der er ingen ændringer udført. Denne manglende ændring skyldes, at ændringen: ikke er udført endnu ikke kan ses i luftfotoet ikke er lovlig i forhold til specifikationen</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+</rdf:RDF>

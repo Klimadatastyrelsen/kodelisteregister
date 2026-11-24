@@ -1,0 +1,19 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Kørevej","Kørevej","færdselsareal på vej, bro, sti eller plads som skønnes at være åben for almindelig færdsel samt adgangsvej til mere end én ejendom","","2027-02-01",""
+"Adgangsvej","Adgangsvej","kanten af en vej, der er adgangsvej til en enkelt ejendom og dermed forbinder ejendommen med den vej, hvortil dens adresse hører","","2027-02-01",""
+"Parkering","Parkering","kant af selvstændigt parkeringsområde
+Parkering i tilknytning til større enhed: institution, indkøbscenter, idrætsanlæg, jernbanestation, seværdighed eller lignende
+Parkeringsområde i forbindelse med boligblok, rækkehuse samt på torv, i bycenter og på taget af en bygning","","2027-02-01",""
+"Internvej","Internvej","internt færdselsareal ved boligblok, institution, industrigrund, lufthavn, kirkegård og lignende. Men ikke færdselsareal på parcelhusgrund
+ ","","2027-02-01",""
+"Anden vej","Anden vej","kant af små veje med lille betydning.
+Ofte korte og blinde veje, der betjener bagsiden af bygninger, baggårde, interne parkeringsarealer og lignende","","2027-02-01",""
+"Supplerende Vejkant","Supplerende Vejkant","supplerende linjer uden for færdselsarealet i forbindelse med buslomme eller rundkørsel samt ved vende- og parkeringsareal langs vej","Registreres ikke fotogrammetrisk, da kommunen selv skal registrere disse.   Registreres kun administrativt.","2027-02-01",""
+"Helle","Helle","omrids af helleanlæg i forbindelse med kryds, svingbaner og fodgængerovergang
+Helle har kørende 4-hjulet trafik på begge sider. Hvis der på den ene side af et trafik-skille-område kun forekommer 2-hjulet trafik, er området ikke Helle med Chikane","","2027-02-01",""
+"Cykelsti langs vej","Cykelsti langs vej","kant af færdselsareal primært til brug for cykler. Færdselsarealet grænser op til Kørevej/Internvej eller en rabat langs kørebanen. Sti kun for cyklende og langsomt kørende motoriseret to-/trehjulet trafik
+ ","","2027-02-01",""
+"Gennemgående sti","Gennemgående sti","kant af færdselsareal i form af gennemgående sti i eget tracé, herunder overordnet sti, der tjener til fordelingsnet for mindre sidestier","","2027-02-01",""
+"Lokal sti","Lokal sti","intern eller mindre sti","","2027-02-01",""
+"Ikke tildelt","Ikke tildelt","typen af Vejkant er ikke tildelt","","2027-02-01",""
+"Ukendt","Ukendt","typen af Vejkant er ikke kendt","","2027-02-01",""

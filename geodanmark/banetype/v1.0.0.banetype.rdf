@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#">
+   <skos:ConceptScheme rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype">
+      <dcterms:title xml:lang="da">banetype</dcterms:title>
+      <dcterms:identifier>urn:uuid:62adc461-b0b2-4ba1-9da4-21da8f6b3dfd</dcterms:identifier>
+      <owl:sameAs rdf:resource="urn:uuid:62adc461-b0b2-4ba1-9da4-21da8f6b3dfd"/>
+      <dcterms:creator xml:lang="da">GeoDanmark</dcterms:creator>
+      <dcterms:description xml:lang="da">liste med mulige koder til angivelse af banetype</dcterms:description>
+      <dcterms:provenance xml:lang="da">første version i kodelisteregisteret</dcterms:provenance>
+      <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.da"/>
+      <dcterms:available xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">2026-11-24</dcterms:available>
+      <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.0</dcat:version>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">urn:uuid:4a03af93-f147-4673-a5c3-09751f47c063</dcat:version>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype/v1.0.0.banetype.gc"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype/v1.0.0.banetype.csv"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype/v1.0.0.banetype.html"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype/v1.0.0.banetype.rdf"/>
+   </skos:ConceptScheme>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype/v1.0.0.banetype.gc">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/xml"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype/v1.0.0.banetype.csv">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype/v1.0.0.banetype.html">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/html"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype/v1.0.0.banetype.rdf">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
+   </dcat:Distribution>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype/Start_Landing">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype"/>
+      <skos:notation>Start_Landing</skos:notation>
+      <skos:prefLabel xml:lang="da">Start_Landing</skos:prefLabel>
+      <skos:definition xml:lang="da">lufthavnsområde hvorpå fly lander eller hvorfra fly starter</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype/Taxivej">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype"/>
+      <skos:notation>Taxivej</skos:notation>
+      <skos:prefLabel xml:lang="da">Taxivej</skos:prefLabel>
+      <skos:definition xml:lang="da">lufthavnsområde der fortrinsvis bruges som veje for fly</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype/Plads">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype"/>
+      <skos:notation>Plads</skos:notation>
+      <skos:prefLabel xml:lang="da">Plads</skos:prefLabel>
+      <skos:definition xml:lang="da">lufthavnsområde hvor fly optagter/afsætter passagerer eller gods, flyparkeringsområde samt flyserviceområde af enhver art</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype/Helipad">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/banetype"/>
+      <skos:notation>Helipad</skos:notation>
+      <skos:prefLabel xml:lang="da">Helipad</skos:prefLabel>
+      <skos:definition xml:lang="da">område hvorpå helikoptere lander eller starter fra</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+</rdf:RDF>

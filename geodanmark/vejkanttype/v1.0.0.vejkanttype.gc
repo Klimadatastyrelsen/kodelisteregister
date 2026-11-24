@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:dcterms="http://purl.org/dc/terms/">
+   <Annotation>
+      <Description>
+         <dcterms:description>liste med mulige koder til angivelse af vejkanttype</dcterms:description>
+         <dcterms:provenance>første version i kodelisteregisteret</dcterms:provenance>
+         <dcterms:language>da</dcterms:language>
+         <dcterms:license>https://creativecommons.org/licenses/by/4.0/deed.da</dcterms:license>
+         <dcterms:available>2026-11-24</dcterms:available>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>vejkanttype</ShortName>
+      <Version>1.0.0</Version>
+      <CanonicalUri>urn:uuid:b0e3ec7c-617d-40e6-9002-31ac797f4ff6</CanonicalUri>
+      <CanonicalVersionUri>urn:uuid:4a7566f3-4ff8-4927-9cb2-497019698624</CanonicalVersionUri>
+      <LocationUri>https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/vejkanttype/v1.0.0.vejkanttype.gc</LocationUri>
+      <AlternateFormatLocationUri MimeType="text/csv">https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/vejkanttype/v1.0.0.vejkanttype.csv</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="text/html">https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/vejkanttype/v1.0.0.vejkanttype.html</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="application/rdf+xml">https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/vejkanttype/v1.0.0.vejkanttype.rdf</AlternateFormatLocationUri>
+      <Agency>
+         <LongName>GeoDanmark</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="kode"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tilladt værdi i data</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kode</ShortName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="navn"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>foretrukne term for koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>navn</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="definition"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kort beskrivelse eller formel forklaring af kodens betydning</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>definition</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="kommentar"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kommentar som hjælper til afklaring af forståelse af koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kommentar</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="virkningFra"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden må tages i anvendelse for nye registreringer</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningFra</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Column Id="virkningTil"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden ikke længere må anvendes i nye registreringer. Koden kan eksistere i data, der er registreret før dette tidspunkt</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningTil</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Key Id="key_code">
+         <ShortName>key_code</ShortName>
+         <ColumnRef Ref="kode"/>
+      </Key>
+      <Key Id="key_navn">
+         <ShortName>key_navn</ShortName>
+         <ColumnRef Ref="navn"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Kørevej</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Kørevej</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>færdselsareal på vej, bro, sti eller plads som skønnes at være åben for almindelig færdsel samt adgangsvej til mere end én ejendom</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Adgangsvej</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Adgangsvej</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kanten af en vej, der er adgangsvej til en enkelt ejendom og dermed forbinder ejendommen med den vej, hvortil dens adresse hører</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Parkering</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Parkering</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kant af selvstændigt parkeringsområde
+Parkering i tilknytning til større enhed: institution, indkøbscenter, idrætsanlæg, jernbanestation, seværdighed eller lignende
+Parkeringsområde i forbindelse med boligblok, rækkehuse samt på torv, i bycenter og på taget af en bygning</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Internvej</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Internvej</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>internt færdselsareal ved boligblok, institution, industrigrund, lufthavn, kirkegård og lignende. Men ikke færdselsareal på parcelhusgrund
+ </SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Anden vej</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Anden vej</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kant af små veje med lille betydning.
+Ofte korte og blinde veje, der betjener bagsiden af bygninger, baggårde, interne parkeringsarealer og lignende</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Supplerende Vejkant</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Supplerende Vejkant</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>supplerende linjer uden for færdselsarealet i forbindelse med buslomme eller rundkørsel samt ved vende- og parkeringsareal langs vej</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>Registreres ikke fotogrammetrisk, da kommunen selv skal registrere disse.   Registreres kun administrativt.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Helle</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Helle</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>omrids af helleanlæg i forbindelse med kryds, svingbaner og fodgængerovergang
+Helle har kørende 4-hjulet trafik på begge sider. Hvis der på den ene side af et trafik-skille-område kun forekommer 2-hjulet trafik, er området ikke Helle med Chikane</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Cykelsti langs vej</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Cykelsti langs vej</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kant af færdselsareal primært til brug for cykler. Færdselsarealet grænser op til Kørevej/Internvej eller en rabat langs kørebanen. Sti kun for cyklende og langsomt kørende motoriseret to-/trehjulet trafik
+ </SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Gennemgående sti</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Gennemgående sti</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kant af færdselsareal i form af gennemgående sti i eget tracé, herunder overordnet sti, der tjener til fordelingsnet for mindre sidestier</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Lokal sti</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Lokal sti</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>intern eller mindre sti</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Ikke tildelt</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Ikke tildelt</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>typen af Vejkant er ikke tildelt</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Ukendt</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Ukendt</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>typen af Vejkant er ikke kendt</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2027-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

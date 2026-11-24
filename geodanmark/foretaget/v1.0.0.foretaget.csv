@@ -1,0 +1,4 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Ny","NY","udpegningen er ikke undersøgt","alle nye udpegninger får denne værdi","2027-02-01",""
+"Slet","OK","udpegningen er ajourført","er rettet som angivet","2027-02-01",""
+"Ændre geometri","NEJ","udpegningen er ikke ajourført, da der ingen ændring blev fundet","det angivne sted er besøgt, men der er ingen ændringer udført. Denne manglende ændring skyldes, at ændringen: ikke er udført endnu ikke kan ses i luftfotoet ikke er lovlig i forhold til specifikationen","2027-02-01",""

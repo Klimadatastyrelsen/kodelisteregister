@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#">
+   <skos:ConceptScheme rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/digetype">
+      <dcterms:title xml:lang="da">digetype</dcterms:title>
+      <dcterms:identifier>urn:uuid:fae53d4f-77dc-44fa-8bb3-66266b55c1a5</dcterms:identifier>
+      <owl:sameAs rdf:resource="urn:uuid:fae53d4f-77dc-44fa-8bb3-66266b55c1a5"/>
+      <dcterms:creator xml:lang="da">GeoDanmark</dcterms:creator>
+      <dcterms:description xml:lang="da">liste med mulige koder til angivelse af digetype</dcterms:description>
+      <dcterms:provenance xml:lang="da">første version i kodelisteregisteret</dcterms:provenance>
+      <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.da"/>
+      <dcterms:available xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">2026-11-24</dcterms:available>
+      <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.0</dcat:version>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">urn:uuid:6048257a-0293-4e4a-bdca-233ece8ac593</dcat:version>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/digetype/v1.0.0.digetype.gc"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/digetype/v1.0.0.digetype.csv"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/digetype/v1.0.0.digetype.html"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/digetype/v1.0.0.digetype.rdf"/>
+   </skos:ConceptScheme>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/digetype/v1.0.0.digetype.gc">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/xml"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/digetype/v1.0.0.digetype.csv">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/digetype/v1.0.0.digetype.html">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/html"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/digetype/v1.0.0.digetype.rdf">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
+   </dcat:Distribution>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/digetype/Hav">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/digetype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/digetype"/>
+      <skos:notation>Hav</skos:notation>
+      <skos:prefLabel xml:lang="da">Hav</skos:prefLabel>
+      <skos:definition xml:lang="da">dige til beskyttelse af bagland mod oversvømmelse fra hav</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/digetype/Vandløb">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/digetype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/digetype"/>
+      <skos:notation>Vandløb</skos:notation>
+      <skos:prefLabel xml:lang="da">Vandløb</skos:prefLabel>
+      <skos:definition xml:lang="da">dige til beskyttelse af bagland mod oversvømmelse fra vandløb</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/digetype/Land">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/digetype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/digetype"/>
+      <skos:notation>Land</skos:notation>
+      <skos:prefLabel xml:lang="da">Land</skos:prefLabel>
+      <skos:definition xml:lang="da">dige som har landskabelig, kulturhistorisk eller støjdæmpende funktion</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+</rdf:RDF>

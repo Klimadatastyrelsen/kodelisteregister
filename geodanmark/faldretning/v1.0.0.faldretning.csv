@@ -1,0 +1,5 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Samme","Samme","vandet falder samme retning, som objektet er registreret i","","2027-02-01",""
+"Modsat","Modsat","vandet falder i modsat retning af den, objektet er registreret i","","2027-02-01",""
+"Varierende","Varierende","vandet har skiftende faldretning på denne strækning","","2027-02-01",""
+"Ukendt","Ukendt","vandets faldretning kendes ikke","","2027-02-01",""

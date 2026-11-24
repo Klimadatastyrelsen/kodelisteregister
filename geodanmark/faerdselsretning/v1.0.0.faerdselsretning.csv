@@ -1,0 +1,5 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Enkeltrettet færdsel","Enkeltrettet færdsel","færdsel er kun tilladt i én retning","","2027-02-01",""
+"Dobbeltrettet færdsel","Dobbeltrettet færdsel","færdsel er tilladt i begge retninger","","2027-02-01",""
+"Ikke tildelt","Ikke tildelt","færdselsretningen er ikke angivet","","2027-02-01",""
+"Ukendt","Ukendt","færdselsretningen er ikke kendt","","2027-02-01",""

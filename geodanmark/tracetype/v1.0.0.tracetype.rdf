@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#">
+   <skos:ConceptScheme rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype">
+      <dcterms:title xml:lang="da">tracetype</dcterms:title>
+      <dcterms:identifier>urn:uuid:74bd992f-1b20-4ea0-b37b-5645fb7cdafd</dcterms:identifier>
+      <owl:sameAs rdf:resource="urn:uuid:74bd992f-1b20-4ea0-b37b-5645fb7cdafd"/>
+      <dcterms:creator xml:lang="da">GeoDanmark</dcterms:creator>
+      <dcterms:description xml:lang="da">liste med mulige koder til angivelse af tracetype</dcterms:description>
+      <dcterms:provenance xml:lang="da">første version i kodelisteregisteret</dcterms:provenance>
+      <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.da"/>
+      <dcterms:available xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">2026-11-24</dcterms:available>
+      <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.0</dcat:version>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">urn:uuid:9474b06a-0051-499b-99a6-ce3bd759db69</dcat:version>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype/v1.0.0.tracetype.gc"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype/v1.0.0.tracetype.csv"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype/v1.0.0.tracetype.html"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype/v1.0.0.tracetype.rdf"/>
+   </skos:ConceptScheme>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype/v1.0.0.tracetype.gc">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/xml"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype/v1.0.0.tracetype.csv">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype/v1.0.0.tracetype.html">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/html"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype/v1.0.0.tracetype.rdf">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
+   </dcat:Distribution>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype/Vej i delt tracé">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype"/>
+      <skos:notation>Vej i delt tracé</skos:notation>
+      <skos:prefLabel xml:lang="da">Vej i delt tracé</skos:prefLabel>
+      <skos:definition xml:lang="da">vej med dobbeltrettet færdsel, hvor kørebanerne er samlet uden fysisk adskillelse (som f.eks. midterrabat) mellem retningerne</skos:definition>
+      <rdfs:comment xml:lang="da">dækker over almindelige veje, hvor modkørende trafik deler det samme færdselsareal, og vejen derfor registreres med én fælles midtlinje</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype/Vej i eget tracé">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype"/>
+      <skos:notation>Vej i eget tracé</skos:notation>
+      <skos:prefLabel xml:lang="da">Vej i eget tracé</skos:prefLabel>
+      <skos:definition xml:lang="da">veje med ensrettet færdsel, der har deres eget selvstændige forløb. F.eks. til- og frakørselsramper, ensrettede gader i byer</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype/Vej i parallelt tracé">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype"/>
+      <skos:notation>Vej i parallelt tracé</skos:notation>
+      <skos:prefLabel xml:lang="da">Vej i parallelt tracé</skos:prefLabel>
+      <skos:definition xml:lang="da">veje med ensrettet færdsel og parallelle forløb, hvor kørebanerne er fysisk adskilt af f.eks. midterhelle, midterrabat eller autoværn</skos:definition>
+      <rdfs:comment xml:lang="da">anvendes ved motorveje, motortrafikveje, kanaliseringsanlæg samt boulevarder</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype/Sti i eget tracé">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype"/>
+      <skos:notation>Sti i eget tracé</skos:notation>
+      <skos:prefLabel xml:lang="da">Sti i eget tracé</skos:prefLabel>
+      <skos:definition xml:lang="da">fritliggende sti med eget selvstændigt forløb, som ikke følger en vej. F.eks. stier gennem en skov, en sti gennem en park eller en sti mellem to boligområder i åbent landskab</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype/Sti langs vej">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype"/>
+      <skos:notation>Sti langs vej</skos:notation>
+      <skos:prefLabel xml:lang="da">Sti langs vej</skos:prefLabel>
+      <skos:definition xml:lang="da">stier, der løber langs en vej og følger dennes forløb (tracé). Kan være adskilt af kantsten, rabat eller lignende, og kan anvendes på både stier og baner</skos:definition>
+      <rdfs:comment xml:lang="da">har ofte samme vejkode som vejen den forløber langs</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype/Ikke tildelt">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype"/>
+      <skos:notation>Ikke tildelt</skos:notation>
+      <skos:prefLabel xml:lang="da">Ikke tildelt</skos:prefLabel>
+      <skos:definition xml:lang="da">tildelingen mangler</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype/Ukendt">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/tracetype"/>
+      <skos:notation>Ukendt</skos:notation>
+      <skos:prefLabel xml:lang="da">Ukendt</skos:prefLabel>
+      <skos:definition xml:lang="da">type kendes ikke</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+</rdf:RDF>

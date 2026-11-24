@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#">
+   <skos:ConceptScheme rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype">
+      <dcterms:title xml:lang="da">arealtype</dcterms:title>
+      <dcterms:identifier>urn:uuid:bb3923a8-cf1d-426b-a515-8e5dcccbbf18</dcterms:identifier>
+      <owl:sameAs rdf:resource="urn:uuid:bb3923a8-cf1d-426b-a515-8e5dcccbbf18"/>
+      <dcterms:creator xml:lang="da">GeoDanmark</dcterms:creator>
+      <dcterms:description xml:lang="da">liste med mulige koder til angivelse af arealtype</dcterms:description>
+      <dcterms:provenance xml:lang="da">første version i kodelisteregisteret</dcterms:provenance>
+      <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.da"/>
+      <dcterms:available xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">2026-11-24</dcterms:available>
+      <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.0</dcat:version>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">urn:uuid:487ebde6-d55c-442b-9f23-b374b58467c3</dcat:version>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/v1.0.0.arealtype.gc"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/v1.0.0.arealtype.csv"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/v1.0.0.arealtype.html"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/v1.0.0.arealtype.rdf"/>
+   </skos:ConceptScheme>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/v1.0.0.arealtype.gc">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/xml"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/v1.0.0.arealtype.csv">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/v1.0.0.arealtype.html">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/html"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/v1.0.0.arealtype.rdf">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
+   </dcat:Distribution>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/Affaldsanlæg">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:notation>Affaldsanlæg</skos:notation>
+      <skos:prefLabel xml:lang="da">Affaldsanlæg</skos:prefLabel>
+      <skos:definition xml:lang="da">teknisk enhed, et bygværk eller en lokalitet, der er indrettet til at modtage, sortere, behandle, genanvende, forbrænde eller bortskaffe affald</skos:definition>
+      <rdfs:comment xml:lang="da">omrids af rensningsanlæg, nedsivningsanlæg og pumpestationer inkl. bygninger, bassiner, tanke, oplagspladser, parkeringspladser mv.</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/Energiforsyningsanlæg">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:notation>Energiforsyningsanlæg</skos:notation>
+      <skos:prefLabel xml:lang="da">Energiforsyningsanlæg</skos:prefLabel>
+      <skos:definition xml:lang="da">en fast installation, der producerer, omformer eller leverer energi (såsom varme, el eller gas) til en bygning, en gruppe af bygninger eller et større samfundsmæssigt netværk</skos:definition>
+      <rdfs:comment xml:lang="da">omrids af område med kraftværk, varmeværk, transformatoranlæg, gasregulatorstation eller solfangeranlæg inkl. tilhørende bygninger, kullagre, askelagre, olietanke, oplagspladser, parkeringsanlæg, garager mv.</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/Genbrugsplads">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:notation>Genbrugsplads</skos:notation>
+      <skos:prefLabel xml:lang="da">Genbrugsplads</skos:prefLabel>
+      <skos:definition xml:lang="da">et indrettet område eller anlæg, hvor borgere og nogle gange virksomheder kan aflevere sorteret affald og genbrugsmaterialer, som ikke bliver hentet ved den almindelige husstandssortering</skos:definition>
+      <rdfs:comment xml:lang="da">omrids af genbrugsplads inkl. bygninger, tekniske indretninger, parkeringsplads mv</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/Lufthavn">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:notation>Lufthavn</skos:notation>
+      <skos:prefLabel xml:lang="da">Lufthavn</skos:prefLabel>
+      <skos:definition xml:lang="da">et afgrænset område med start- og landingsbaner, bygninger og faciliteter, hvor fly kan lette, lande, parkere og få service, og hvor der er indrettet plads til håndtering af passagerer, bagage eller fragt</skos:definition>
+      <rdfs:comment xml:lang="da">omrids af område tilknyttet en lufthavn. Inkl. terminaler, bygninger, tankanlæg, startbaner, rulleveje, standpladser, flyserviceområder, hangarer, kontroltårne, fragthaller, ikke offentligt tilgængelige parkeringspladser og øvrige relevante indretninger indgår i området</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/Militært anlæg">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:notation>Militært anlæg</skos:notation>
+      <skos:prefLabel xml:lang="da">Militært anlæg</skos:prefLabel>
+      <skos:definition xml:lang="da">fysiske rammer, der understøtter forsvar, militære operationer, uddannelse eller strategiske beredskab</skos:definition>
+      <rdfs:comment xml:lang="da">omrids af militært område bestående af bygninger, plæner, paradepladser, garager, oplagspladser, parkeringspladser, træningsbaner mv. der umiddelbart er knyttet til kasernen. Samt omrids af øvelsesterræner, radarstationer, antenneanlæg mv.</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/Parkeringsanlæg">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:notation>Parkeringsanlæg</skos:notation>
+      <skos:prefLabel xml:lang="da">Parkeringsanlæg</skos:prefLabel>
+      <skos:definition xml:lang="da">samlet areal der er særligt indrettet og reserveret til parkering af motorkøretøjer</skos:definition>
+      <rdfs:comment xml:lang="da">omrids af egentligt parkeringsområde til parkering af biler, busser, lastbiler, anhængere, oplagsplads for lystbåde mm. Mindstestørrelse 2.500 m2. Flere mindre områder ved siden af hinanden overskåret af Vejmidte medtages dog, hvis de tilsammen er over mindstemålet.</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/Sportsanlæg">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:notation>Sportsanlæg</skos:notation>
+      <skos:prefLabel xml:lang="da">Sportsanlæg</skos:prefLabel>
+      <skos:definition xml:lang="da">anlæg der danner rammen om udøvelse af sport eller fysisk aktivitet</skos:definition>
+      <rdfs:comment xml:lang="da">omrids af sportsanlæg der f.eks. indeholder stadion, parkeringspladser, bygninger, tilskuerfaciliteter og baner (bold-, løbe-, kaste-, skyde-, svømme-, golf-, ride-, motor- mv.) Sportsanlæg omfatter bl.a. Idrætsanlæg ved skoler Fritliggende sportshal ved en skole. Hvis hallen er sammenbygget med øvrige skolebygninger, indgår den ikke i området. Parkeringsanlæg primært til brug for sportsanlægget. De enkelte indretninger inde på arealet registreres ikke som TekniskAreal. Mindstestørrelsen er 2.500 m2. For motorbaner dog 10.000 m2.</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/Togstation/rangeranlæg">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:notation>Togstation/rangeranlæg</skos:notation>
+      <skos:prefLabel xml:lang="da">Togstation/rangeranlæg</skos:prefLabel>
+      <skos:definition xml:lang="da">område med spor og faciliteter, hvor tog standser for passager- eller godsekspedition, eller hvor tog og vogne sammensættes, opdeles og opstilles</skos:definition>
+      <rdfs:comment xml:lang="da">omrids af område beregnet for jernbanetrafik i forbindelse med station eller rangeranlæg. Tilhørende bygninger, oplagspladser og ikke offentligt tilgængelige parkeringspladser indgår i området</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/Vandrensningsanlæg">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:notation>Vandrensningsanlæg</skos:notation>
+      <skos:prefLabel xml:lang="da">Vandrensningsanlæg</skos:prefLabel>
+      <skos:definition xml:lang="da">en facilitet eller et teknisk anlæg, der fjerner forurenende stoffer, urenheder og affald fra vand, så det enten kan gøres rent til drikkevand eller renses, før det ledes ud i naturen</skos:definition>
+      <rdfs:comment xml:lang="da">omrids af rensningsanlæg, nedsivningsanlæg og pumpestationer inkl. bygninger, bassiner, tanke, oplagspladser, parkeringspladser mv.</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/Vandværk">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:notation>Vandværk</skos:notation>
+      <skos:prefLabel xml:lang="da">Vandværk</skos:prefLabel>
+      <skos:definition xml:lang="da">et teknisk anlæg, der indvinder grundvand eller overfladevand, renser det (bl.a. ved iltning og filtrering) og pumper det rene drikkevand ud til forbrugerne via et ledningsnet</skos:definition>
+      <rdfs:comment xml:lang="da">omrids af vandindvindings og/eller -behandlingsanlæg inkl. bygninger, plæner, oplagspladser, parkeringspladser mv.</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/Materielgård">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:notation>Materielgård</skos:notation>
+      <skos:prefLabel xml:lang="da">Materielgård</skos:prefLabel>
+      <skos:definition xml:lang="da">plads eller bygning hvor udstyr, maskiner og materialer til drift eller vedligeholdelse opbevares og administreres</skos:definition>
+      <rdfs:comment xml:lang="da">omrids af plads til opbevaring af f.eks. maskinpark, skilteafmærkning, vejsalt og lignede inkl. bygninger og parkeringspladser</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/Ikke tildelt">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:notation>Ikke tildelt</skos:notation>
+      <skos:prefLabel xml:lang="da">Ikke tildelt</skos:prefLabel>
+      <skos:definition xml:lang="da">tildelingen mangler</skos:definition>
+      <rdfs:comment xml:lang="da">anvendes når Arealtype ikke er tildelt</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype/Ukendt">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/arealtype"/>
+      <skos:notation>Ukendt</skos:notation>
+      <skos:prefLabel xml:lang="da">Ukendt</skos:prefLabel>
+      <skos:definition xml:lang="da">type kendes ikke</skos:definition>
+      <rdfs:comment xml:lang="da">anvendes når Arealtype er ukendt</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+</rdf:RDF>

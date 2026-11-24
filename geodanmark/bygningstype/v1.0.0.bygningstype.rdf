@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#">
+   <skos:ConceptScheme rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype">
+      <dcterms:title xml:lang="da">bygningstype</dcterms:title>
+      <dcterms:identifier>urn:uuid:13901413-7ed6-40e9-9fd0-7b38b150aee5</dcterms:identifier>
+      <owl:sameAs rdf:resource="urn:uuid:13901413-7ed6-40e9-9fd0-7b38b150aee5"/>
+      <dcterms:creator xml:lang="da">GeoDanmark</dcterms:creator>
+      <dcterms:description xml:lang="da">liste med mulige koder til angivelse af bygningstype</dcterms:description>
+      <dcterms:provenance xml:lang="da">første version i kodelisteregisteret</dcterms:provenance>
+      <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.da"/>
+      <dcterms:available xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">2026-11-24</dcterms:available>
+      <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.0</dcat:version>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">urn:uuid:b632f631-10b6-47e1-bcc0-414575260c86</dcat:version>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype/v1.0.0.bygningstype.gc"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype/v1.0.0.bygningstype.csv"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype/v1.0.0.bygningstype.html"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype/v1.0.0.bygningstype.rdf"/>
+   </skos:ConceptScheme>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype/v1.0.0.bygningstype.gc">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/xml"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype/v1.0.0.bygningstype.csv">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype/v1.0.0.bygningstype.html">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/html"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype/v1.0.0.bygningstype.rdf">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
+   </dcat:Distribution>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype/Bygning">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype"/>
+      <skos:notation>Bygning</skos:notation>
+      <skos:prefLabel xml:lang="da">Bygning</skos:prefLabel>
+      <skos:definition xml:lang="da">fast, overdækket konstruktion med tag, som er beregnet til ophold for mennesker eller dyr eller til opbevaring</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype/Husbåd">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype"/>
+      <skos:notation>Husbåd</skos:notation>
+      <skos:prefLabel xml:lang="da">Husbåd</skos:prefLabel>
+      <skos:definition xml:lang="da">flydende konstruktion, der primært er indrettet til beboelse eller ophold, og som ligger fast fortøjet og ikke er beregnet til sejlads</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype/Drivhus">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype"/>
+      <skos:notation>Drivhus</skos:notation>
+      <skos:prefLabel xml:lang="da">Drivhus</skos:prefLabel>
+      <skos:definition xml:lang="da">bygning med vægge og tag af overvejende lysgennemtrængeligt materiale, fx glas eller plast, som anvendes til dyrkning af planter</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype/Tank/Silo">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype"/>
+      <skos:notation>Tank/Silo</skos:notation>
+      <skos:prefLabel xml:lang="da">Tank/Silo</skos:prefLabel>
+      <skos:definition xml:lang="da">lukket beholder til opbevaring af væsker, gasser eller løse materialer, fx olie, vand, korn eller foder</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype/Andet">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype"/>
+      <skos:notation>Andet</skos:notation>
+      <skos:prefLabel xml:lang="da">Andet</skos:prefLabel>
+      <skos:definition xml:lang="da">værdi ikke omfattet af de øvrige mulige værdier</skos:definition>
+      <rdfs:comment xml:lang="da">når en fagkyndig person kender den rette værdi, men den fremgår ikke blandt de lovlige værdier for attributten</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype/Ikke tildelt">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bygningstype"/>
+      <skos:notation>Ikke tildelt</skos:notation>
+      <skos:prefLabel xml:lang="da">Ikke tildelt</skos:prefLabel>
+      <skos:definition xml:lang="da">tildelingen mangler</skos:definition>
+      <rdfs:comment xml:lang="da">når der fagligt ikke er foretaget en vurdering af, hvilken værdi der er den rigtige</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+</rdf:RDF>

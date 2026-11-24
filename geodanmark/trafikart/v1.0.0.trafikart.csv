@@ -1,0 +1,13 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Motorkøretøj","Motorkøretøj","kun færdsel af køretøj, der hovedsageligt er indrettet til selvstændigt at benyttes til person- eller godstransport. Minimumshastigheden er 45 km/t","","2027-02-01",""
+"Al færdsel","Al færdsel","her foregår alle former for trafik","","2027-02-01",""
+"2 minus 1 vej","2 minus 1 vej","en vej med kun et spor for bilister. Kørebanen er på begge sider afmærket med brede, stiplede malede kanter. Området i midten er beregnet for biler, mens områderne i siderne er beregnet for cykler. Biler må dog godt parkere og køre ind over for kantbemalingen","der registreres kun én linje i midten af den samlede vejbredde. Der registreres ikke en Vejmidte i cykelområderne. Ajourføres administrativt","2027-02-01",""
+"Sideanlæg","Sideanlæg","anlæg ved vejen er faciliteter, som rastepladser, tankstationer og serviceanlæg","","2027-02-01",""
+"Gågade","Gågade","trafikken er en gående","bruges kun, når vejen er skiltet som gågade. Det er typisk gader i bymidter, som har vejnavn og adresser","2027-02-01",""
+"Cykelgade","Cykelgade","trafikken er en cyklende","bruges kun, når vejen er skiltet som cykelgade","2027-02-01",""
+"Cykel- og gangsti","Cykel- og gangsti","trafikken er både gående og cyklende færdsel","","2027-02-01",""
+"Gangsti","Gangsti","trafikken er kun for gående færdsel","bruges, når stien alene er beregnet for gående","2027-02-01",""
+"Cykelsti","Cykelsti","trafikken er kun for cyklende færdsel","cykelstier langs vej og cykelstier i eget tracé","2027-02-01",""
+"Redningsvej","Redningsvej","trafikken er kun for redningskørsel","","2027-02-01",""
+"Bus","Bus","trafikken er kun for busser","","2027-02-01",""
+"Ikke tildelt","Ikke tildelt","tildelingen mangler","","2027-02-01",""

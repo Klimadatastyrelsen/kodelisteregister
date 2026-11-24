@@ -1,0 +1,7 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Banedanmark","Banedanmark","jernbanen ejes af Banedanmark","","2027-02-01",""
+"DSB","DSB","jernbanen ejes af DSB","","2027-02-01",""
+"Privatbane","Privatbane","jernbane der helt eller delvis ejes og drives af en privat organisation","","2027-02-01",""
+"Andet","Andet","jernbanen ejes af andre end dem, der findes i listen","","2027-02-01",""
+"Ikke tildelt","Ikke tildelt","ejerforholdet er ikke tildelt","","2027-02-01",""
+"Ukendt","Ukendt","ejerforholdet er ukendt","","2027-02-01",""

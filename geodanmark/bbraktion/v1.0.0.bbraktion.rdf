@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#">
+   <skos:ConceptScheme rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion">
+      <dcterms:title xml:lang="da">bbraktion</dcterms:title>
+      <dcterms:identifier>urn:uuid:5a4cbfad-94c9-4bbb-a867-3c28e7380cf0</dcterms:identifier>
+      <owl:sameAs rdf:resource="urn:uuid:5a4cbfad-94c9-4bbb-a867-3c28e7380cf0"/>
+      <dcterms:creator xml:lang="da">GeoDanmark</dcterms:creator>
+      <dcterms:description xml:lang="da">liste med mulige koder til angivelse af BBRaktion</dcterms:description>
+      <dcterms:provenance xml:lang="da">første version i kodelisteregisteret</dcterms:provenance>
+      <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.da"/>
+      <dcterms:available xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">2026-11-24</dcterms:available>
+      <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.0</dcat:version>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">urn:uuid:095de18b-ad80-44e8-95e2-3863af8687ae</dcat:version>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion/v1.0.0.bbraktion.gc"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion/v1.0.0.bbraktion.csv"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion/v1.0.0.bbraktion.html"/>
+      <dcat:distribution rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion/v1.0.0.bbraktion.rdf"/>
+   </skos:ConceptScheme>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion/v1.0.0.bbraktion.gc">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/xml"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion/v1.0.0.bbraktion.csv">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion/v1.0.0.bbraktion.html">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/html"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion/v1.0.0.bbraktion.rdf">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
+   </dcat:Distribution>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion/Skal i BBR">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion"/>
+      <skos:notation>Skal i BBR</skos:notation>
+      <skos:prefLabel xml:lang="da">Skal i BBR</skos:prefLabel>
+      <skos:definition xml:lang="da">bygningen skal i BBR</skos:definition>
+      <rdfs:comment xml:lang="da">der skal oprettes én bygning eller ét tekniskanlæg i BBR, som dette Geodanmark objekt kan kobles til</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion/Skal ikke i BBR">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion"/>
+      <skos:notation>Skal ikke i BBR</skos:notation>
+      <skos:prefLabel xml:lang="da">Skal ikke i BBR</skos:prefLabel>
+      <skos:definition xml:lang="da">bygningen skal ikke i BBR</skos:definition>
+      <rdfs:comment xml:lang="da">der skal IKKE oprettes hverken én bygning eller ét tekniskanlæg i BBR</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion/Skal sammenlægges">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion"/>
+      <skos:notation>Skal sammenlægges</skos:notation>
+      <skos:prefLabel xml:lang="da">Skal sammenlægges</skos:prefLabel>
+      <skos:definition xml:lang="da">sammenlægges med andre objekter af samme type</skos:definition>
+      <rdfs:comment xml:lang="da">dette Geodanmark objekt skal sammenlægges med et eller flere andre Geodanmark objekter af samme type. For at kunne matche én bygning eller ét tekniskanlæg i BBR</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion/Del af et BBR-objekt">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion"/>
+      <skos:notation>Del af et BBR-objekt</skos:notation>
+      <skos:prefLabel xml:lang="da">Del af et BBR-objekt</skos:prefLabel>
+      <skos:definition xml:lang="da">objekter kan ikke sammenlægges, fordi de ikke hænger fysisk sammen</skos:definition>
+      <rdfs:comment xml:lang="da">dette er ét af flere Geodanmark objekter, der samlet set matcher én bygning eller ét tekniskanlæg i BBR, men hvor Geodanmark objekterne ikke kan lægges sammen, da de ikke har fysisk sammenfald</rdfs:comment>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion/Mangler afklaring">
+      <skos:inScheme rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion"/>
+      <skos:topConceptOf rdf:resource="https://klimadatastyrelsen.github.io/kodelisteregister/geodanmark/bbraktion"/>
+      <skos:notation>Mangler afklaring</skos:notation>
+      <skos:prefLabel xml:lang="da">Mangler afklaring</skos:prefLabel>
+      <skos:definition xml:lang="da">det er ikke afklaret, hvad der videre skal ske med bygningen</skos:definition>
+      <dcterms:valid>2027-02-01/..</dcterms:valid>
+   </skos:Concept>
+</rdf:RDF>
